@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2021-07-06T13:10:10.097Z</updated>
+  <updated>2021-07-07T14:00:32.571Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>公共物品和公共资源</title>
+    <link href="http://booleflow.com/2021/06/12/gong-gong-wu-pin-he-gong-gong-zi-yuan/"/>
+    <id>http://booleflow.com/2021/06/12/gong-gong-wu-pin-he-gong-gong-zi-yuan/</id>
+    <published>2021-06-12T11:01:20.000Z</published>
+    <updated>2021-07-07T14:00:32.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;经济物品分类&quot;&gt;&lt;a href=&quot;#经济物品分类&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="竞争性" scheme="http://booleflow.com/tags/%E7%AB%9E%E4%BA%89%E6%80%A7/"/>
+    
+    <category term="排他性" scheme="http://booleflow.com/tags/%E6%8E%92%E4%BB%96%E6%80%A7/"/>
+    
+    <category term="搭便车" scheme="http://booleflow.com/tags/%E6%90%AD%E4%BE%BF%E8%BD%A6/"/>
+    
+    <category term="公地悲剧" scheme="http://booleflow.com/tags/%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>市场外部性</title>
@@ -588,39 +619,6 @@
     <category term="Boosting" scheme="http://booleflow.com/tags/Boosting/"/>
     
     <category term="Bagging" scheme="http://booleflow.com/tags/Bagging/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>决策树原理解析</title>
-    <link href="http://booleflow.com/2021/01/16/jue-ce-shu-yuan-li-jie-xi/"/>
-    <id>http://booleflow.com/2021/01/16/jue-ce-shu-yuan-li-jie-xi/</id>
-    <published>2021-01-16T03:43:28.000Z</published>
-    <updated>2021-07-05T09:39:13.281Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;决策树模型&quot;&gt;&lt;a href=&quot;#决策树模型&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="DM&amp;ML" scheme="http://booleflow.com/categories/DM-ML/"/>
-    
-    
-    <category term="决策树" scheme="http://booleflow.com/tags/%E5%86%B3%E7%AD%96%E6%A0%91/"/>
-    
-    <category term="熵" scheme="http://booleflow.com/tags/%E7%86%B5/"/>
-    
-    <category term="信息增益" scheme="http://booleflow.com/tags/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A/"/>
-    
-    <category term="信息增益比" scheme="http://booleflow.com/tags/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A%E6%AF%94/"/>
-    
-    <category term="基尼系数" scheme="http://booleflow.com/tags/%E5%9F%BA%E5%B0%BC%E7%B3%BB%E6%95%B0/"/>
     
   </entry>
   
