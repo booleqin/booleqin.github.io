@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2021-07-07T14:00:32.571Z</updated>
+  <updated>2021-07-08T10:44:13.643Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>税制的设计</title>
+    <link href="http://booleflow.com/2021/06/13/shui-zhi-de-she-ji/"/>
+    <id>http://booleflow.com/2021/06/13/shui-zhi-de-she-ji/</id>
+    <published>2021-06-13T09:15:02.000Z</published>
+    <updated>2021-07-08T10:44:13.643Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;美国政府的财政概况&quot;&gt;&lt;a href=&quot;#美国政府的财政概况&quot; class=&quot;headerlink&quot; title=&quot;美国政府的财政概况&quot;&gt;&lt;/a&gt;美国政府的财政概况&lt;/h2&gt;&lt;h3 id=&quot;联邦政府&quot;&gt;&lt;a href=&quot;#联邦政府&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="无谓损失" scheme="http://booleflow.com/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/"/>
+    
+    <category term="税收" scheme="http://booleflow.com/tags/%E7%A8%8E%E6%94%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>公共物品和公共资源</title>
@@ -106,6 +133,70 @@
     <category term="科技主义" scheme="http://booleflow.com/tags/%E7%A7%91%E6%8A%80%E4%B8%BB%E4%B9%89/"/>
     
     <category term="尤瓦尔·赫拉利" scheme="http://booleflow.com/tags/%E5%B0%A4%E7%93%A6%E5%B0%94%C2%B7%E8%B5%AB%E6%8B%89%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史2》</title>
+    <link href="http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/"/>
+    <id>http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/</id>
+    <published>2021-05-02T10:44:58.000Z</published>
+    <updated>2021-07-08T10:56:11.894Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史2》，二混子著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;串故事逻辑非常好，从西汉到王莽篡权再到东汉，从东汉末年的董卓袁绍和曹操，再到三国的官渡之战、赤壁之战和夷陵之</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="东西汉" scheme="http://booleflow.com/tags/%E4%B8%9C%E8%A5%BF%E6%B1%89/"/>
+    
+    <category term="三国鼎立" scheme="http://booleflow.com/tags/%E4%B8%89%E5%9B%BD%E9%BC%8E%E7%AB%8B/"/>
+    
+    <category term="魏晋南北朝" scheme="http://booleflow.com/tags/%E9%AD%8F%E6%99%8B%E5%8D%97%E5%8C%97%E6%9C%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史1》</title>
+    <link href="http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/"/>
+    <id>http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/</id>
+    <published>2021-05-01T10:53:16.000Z</published>
+    <updated>2021-07-08T10:56:19.801Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史1》，二混子著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用漫画的形式讲述历史故事，可能没办法呈现更多的细节，但是能让读者去理解历史脉络，建立自己的历史观。个人感觉对</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="春秋五霸" scheme="http://booleflow.com/tags/%E6%98%A5%E7%A7%8B%E4%BA%94%E9%9C%B8/"/>
+    
+    <category term="战国七雄" scheme="http://booleflow.com/tags/%E6%88%98%E5%9B%BD%E4%B8%83%E9%9B%84/"/>
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
     
   </entry>
   
@@ -528,97 +619,6 @@
     <category term="进化论" scheme="http://booleflow.com/tags/%E8%BF%9B%E5%8C%96%E8%AE%BA/"/>
     
     <category term="杰弗里·米勒" scheme="http://booleflow.com/tags/%E6%9D%B0%E5%BC%97%E9%87%8C%C2%B7%E7%B1%B3%E5%8B%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《人类简史：从动物到上帝》</title>
-    <link href="http://booleflow.com/2021/01/31/ren-lei-jian-shi-cong-dong-wu-dao-shang-di/"/>
-    <id>http://booleflow.com/2021/01/31/ren-lei-jian-shi-cong-dong-wu-dao-shang-di/</id>
-    <published>2021-01-31T09:33:02.000Z</published>
-    <updated>2021-07-05T09:39:13.044Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《人类简史：从动物到上帝》，尤瓦尔·赫拉利著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;不得不说，瓦尔·赫拉利的思考真的充满了野心，敢于直接对人类命运进行深思熟虑的人并不多。对于生命哲</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="尤瓦尔·赫拉利" scheme="http://booleflow.com/tags/%E5%B0%A4%E7%93%A6%E5%B0%94%C2%B7%E8%B5%AB%E6%8B%89%E5%88%A9/"/>
-    
-    <category term="认知革命" scheme="http://booleflow.com/tags/%E8%AE%A4%E7%9F%A5%E9%9D%A9%E5%91%BD/"/>
-    
-    <category term="农业革命" scheme="http://booleflow.com/tags/%E5%86%9C%E4%B8%9A%E9%9D%A9%E5%91%BD/"/>
-    
-    <category term="工业革命" scheme="http://booleflow.com/tags/%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>弹性衡量供需变化程度</title>
-    <link href="http://booleflow.com/2021/01/31/dan-xing-heng-liang-gong-xu-bian-hua-cheng-du/"/>
-    <id>http://booleflow.com/2021/01/31/dan-xing-heng-liang-gong-xu-bian-hua-cheng-du/</id>
-    <published>2021-01-31T07:26:14.000Z</published>
-    <updated>2021-07-05T09:39:13.408Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;弹性&quot;&gt;&lt;a href=&quot;#弹性&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-    
-    <category term="市场供给" scheme="http://booleflow.com/tags/%E5%B8%82%E5%9C%BA%E4%BE%9B%E7%BB%99/"/>
-    
-    <category term="市场需求" scheme="http://booleflow.com/tags/%E5%B8%82%E5%9C%BA%E9%9C%80%E6%B1%82/"/>
-    
-    <category term="价格弹性" scheme="http://booleflow.com/tags/%E4%BB%B7%E6%A0%BC%E5%BC%B9%E6%80%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好而不同的集成学习</title>
-    <link href="http://booleflow.com/2021/01/23/hao-er-bu-tong-de-ji-cheng-xue-xi/"/>
-    <id>http://booleflow.com/2021/01/23/hao-er-bu-tong-de-ji-cheng-xue-xi/</id>
-    <published>2021-01-23T06:38:27.000Z</published>
-    <updated>2021-07-05T09:39:13.385Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;集成学习&quot;&gt;&lt;a href=&quot;#集成学习&quot; class=&quot;headerlink&quot; title=&quot;集成学习&quot;&gt;&lt;/a&gt;集成学习&lt;/h2&gt;&lt;h3 id=&quot;集成学习算法&quot;&gt;&lt;a href=&quot;#集成学习算法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="DM&amp;ML" scheme="http://booleflow.com/categories/DM-ML/"/>
-    
-    
-    <category term="集成学习" scheme="http://booleflow.com/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="Boosting" scheme="http://booleflow.com/tags/Boosting/"/>
-    
-    <category term="Bagging" scheme="http://booleflow.com/tags/Bagging/"/>
     
   </entry>
   
