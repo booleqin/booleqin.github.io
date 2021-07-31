@@ -1,0 +1,1506 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="《简单统计学：如何轻松识破一本正经的胡说八道》, Boole Flow">
+    <meta name="description" content="Emotion defines life, data quantifies the world, and models predict the future.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>《简单统计学：如何轻松识破一本正经的胡说八道》 | Boole Flow</title>
+    <link rel="icon" type="image/png" href="/booleicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Boole Flow" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/boolelogo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Boole Flow</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/boolelogo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Boole Flow</div>
+        <div class="logo-desc">
+            
+            Emotion defines life, data quantifies the world, and models predict the future.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/booleqin/booleqin.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">《简单统计学：如何轻松识破一本正经的胡说八道》</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/">
+                                <span class="chip bg-color">统计学</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                                <span class="chip bg-color">生活</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%8A%A0%E9%87%8C%C2%B7%E5%8F%B2%E5%AF%86%E6%96%AF/">
+                                <span class="chip bg-color">加里·史密斯</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                读书笔记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-02
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4.4k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    14 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><strong>《简单统计学：如何轻松识破一本正经的胡说八道》，加里·史密斯著</strong></p>
+<p><strong>注：读书笔记仅做记录，可读性较差。</strong></p>
+<p>看这本书一直出于高度谨慎的状态，因为有时候不知道前一页看到的例子，是否就会在下一页被推翻，有时候看到一个标题就知道肯定不靠谱，但是仍然想继续看下去为什么会出现这种研究观点。自选择偏差，幸存者偏差，证实性偏差，计算误差，相关性因果偏差，均值回归，偏好数据保留，平均定律等都能带来很多迎合直觉或违反直觉的问题。读这本书会有稍微的不适感，一方面是作者列举了太多一本正经胡说八道的例子，同时作者那种直言不讳的风格也非常尖锐。书名虽含有统计学，其实统计学知识并不多，如果是奔着学习统计学知识去的，不是很推荐。我生活中非严肃场合偶尔也会一些有点根据的胡说八道，不过通过作者的案例，对“一本正经”有了不一样的认识，不管证据是否可靠，但至少一本正经。</p>
+<hr>
+<p>◆ 第1章 模式、模式、模式</p>
+<p>当时“保罗”预测的时候就一直很纳闷为什么一直在选德国，只是当时没有详细考虑这个问题，原来问题出在国旗身上，如果当时对章鱼预测的国旗做个简单的相似性分析，很容易就会发现这个问题，只是大多数人更愿意相信惊艳的结果。</p>
+<blockquote>
+<p>不过实验表明，章鱼能够识别明暗度，而且喜欢横向形状。德国国旗有由三块鲜艳的水平条纹组成，塞尔维亚和西班牙的国旗也是如此，</p>
+</blockquote>
+<hr>
+<p>有一定道理，数据挖掘建模中80%时间都在做特征，就是为了对数据进行重塑，不过有一点需要申明，有效的挖掘模式是可以迁移的，而这种可迁移就是利用价值。</p>
+<blockquote>
+<p>这些做法——选择性报告和数据搜刮——被称为数据挖掘。通过数据挖掘发现的统计显著性只能体现出研究人员的耐心。在独立检验证实或拒绝结论之前，我们无法判断某种数据挖掘马拉松到底证明了某种实用理论的有效性还是研究人员坚定的毅力。</p>
+</blockquote>
+<hr>
+<p>◆ 第2章 不再神奇的超级畅销书</p>
+<p>自选择偏差是一个无法完全拆分的变量，这种变量有一个特点，在结果出来之前，无法度量它的存在，可是当结果出来后再度量它也失去了意义。</p>
+<blockquote>
+<p>当数据涉及人们的选择时（比如当人们选择上大学、结婚或者要孩子时），就会出现“自选择偏差”。在这种情况下，对于做出不同选择的人进行比较的做法是靠不住的。</p>
+</blockquote>
+<hr>
+<p>这里有一个明显的问题是因果关系的界定，到底是逮捕定罪降低了投票率，还是不愿意参与投票的人的逮捕定罪率更高，而且这里只能说明观察到的两项数据变化趋势有一定的相关性，并不能直接说明它们有因果关系。这在实际中经常会被一些所谓的分析师们捉弄。</p>
+<blockquote>
+<p>一份针对美国城市最边缘群体的大规模调查发现，在曾被警察拦截和盘问的群体中，投票概率降低了8%；在曾被逮捕的群体中，投票概率降低了16%；在被定罪的群体中，投票概率降低了18%；在曾经遭到拘留或监禁的群体中，投票概率降低了22%。</p>
+</blockquote>
+<hr>
+<p>简单而言，这里把去过法国不止一次定为了认为法国人友好的因，实则可能只是因为这些人觉得法国人友好才去了不止一次。</p>
+<blockquote>
+<p>大多数过去两年对法国进行过不止一次休闲旅行的美国人不认为法国人不友好。</p>
+</blockquote>
+<hr>
+<p>幸存者偏差和自选择偏差类似，不同的是幸存者偏差不会出现嵌套循环，而且幸存者偏差似乎更容易被大家识别。</p>
+<blockquote>
+<p>许多观测性研究存在幸存者偏差。例如，健康维护组织在一项调查中发现，超过90%的成员对该组织感到满意。这里存在两种幸存者偏差，它们都在推高调查的满意度：一些人由于不满意而退出了这项计划，还有一些人离开了人世。</p>
+</blockquote>
+<hr>
+<p>预测一件未发生事情的出现非常难，但是给已经发生的事找理由并不难。就像在股票市场中，每天收盘后网络上一大推长篇大论的分析，似乎自己真的看透市场一样，其实都是事后诸葛亮。</p>
+<blockquote>
+<p>对成功的企业、婚姻和人生进行回溯性研究的所有书籍都存在这个问题，包括成功企业、持久婚姻、活到百岁的方法/秘密/诀窍等。这类书籍存在固有的幸存者偏差。</p>
+</blockquote>
+<hr>
+<p>◆ 第3章 被误传的谋杀之都</p>
+<p>这种效应很可怕，可是设置对照组的成本又非常高（我一直对以人的未来做对照实验的方法持谨慎态度），所以实际中做很多事情并非一定要证真，只要不可证伪就有存在的必要。</p>
+<blockquote>
+<p>当人们最终结束这项实验时，得到的结果令人吃惊。在接受胃冷冻治疗的患者中，34%的患者表示病情出现了好转；在接受与体温相当的液体的患者中，这个比例是38%。又是安慰剂效应！</p>
+</blockquote>
+<hr>
+<p>◆ 第4章 新的经济学上帝</p>
+<p>抛开计算机bug而言，我们认为计算机能算出正确的数和计算机算出的数是正确的有本质区别，计算机只能保证从输入到输出的正确，并不能保证全流程。而很多时候，我们在遇到错误时，直接帅锅给计算机，计算机算出来的就是这样，怎么可能错误。</p>
+<blockquote>
+<p>错误的问题会导致错误的答案。如果我想知道169的平方根，实际却让计算机计算196的平方根。计算机会告诉我，答案是14。对于我所提出的问题来说，这个答案是正确的。对于我想提出的问题来说，这个答案是错误的。这类错误被称为“计算误差”，但它们实际上是人为误差。遗憾的是，一些计算误差具有极为严重的后果。</p>
+</blockquote>
+<hr>
+<p>◆ 第6章 美国有多少非裔职业运动员？</p>
+<p>不换门的话，赢得大奖的概率是1/3。换门的话，赢得大奖的概率是2/3。</p>
+<blockquote>
+<p>在电视节目《一锤定音》中，你可以在三扇门之中做出选择。其中，一扇门后面是一项大奖，另外两扇门后面是山羊。在你选择一扇门以后，主持人蒙提·霍尔（Monty Hall）每次都会向你展示你没有选择的一扇门后面的山羊，并且询问你是否想要换一扇门。</p>
+</blockquote>
+<hr>
+<p>的确，概率的乘积会发生很多奇妙的变化，不过说真，作者这里的用法稍微有点过激了，比如，把一个小概率事件（阳性）和大概率事件（全部调查者）放在同一个系统中对比，本身就会有争议。这里还体现了准确率，精确率和召回率的艺术，这种用数字避重就轻的方式很容易迷惑人。</p>
+<blockquote>
+<p>在950个阳性检测结果中，475个结果是假阳性。高达50%的阳性员工没有使用大麻。这就是我们需要谨慎对待条件概率的原因。虽然95%的大麻使用者会检测出阳性结果，但是只有50%的阳性结果来自大麻使用者。</p>
+</blockquote>
+<hr>
+<p>◆ 第7章 辛普森悖论</p>
+<p>数据被分解，某种程度上就会为每个分类赋予一定的权重，而这个权重会直接影响到结果，总会受到数据分布的不同和异常值的影响。</p>
+<blockquote>
+<p>这仍然是辛普森悖论。当数据被分解时，聚合数据中的模式遭到了逆转。</p>
+</blockquote>
+<hr>
+<p>这就有意思了，到底是喝咖啡导致了疾病，还是喝咖啡导致了抽烟，然后抽烟导致了疾病，或是抽烟导致了喝咖啡，又或是存在这种疾病的人本身就更喜欢喝咖啡，当引入系统性差异是，关系就变得复杂了。很多时候相关性并不能证明因果关系。</p>
+<blockquote>
+<p>1971年的一项研究发现，同没有膀胱癌的人相比，患有膀胱癌的人更愿意喝咖啡——这意味着咖啡会导致膀胱癌。不过，这里存在一个混杂因素，那就是喝咖啡的人更愿意吸烟。导致膀胱癌的到底是咖啡还是香烟呢？</p>
+</blockquote>
+<hr>
+<p>◆ 第8章 状态火热的雷·阿伦</p>
+<p>我们都希望能在一定程度上控制未发生的事，倾向于基于已知寻找可以预测未知的模式，但是有时候这可能就是一个随机事件。就像股价变化，用随机过程一模拟，似乎能发现所有的股票走势。不过换个角度，手热的时候可能就是因为自信了呢，自信了在一定程度上后面的投篮就不再是简单的随机过程，和前面投篮结果就有了直接关系。</p>
+<blockquote>
+<p>类似地，如果篮球选手在5次投篮中4次命中，我们可能认为他下次投篮命中的概率是80%。如果这个选手在5次投篮中4次不中，那么他下次投篮命中的概率只有20%。根据很小的投篮样本，我们认为选手的状态由好转坏，从80%的命中率转变成了20%的命中率。我们没有意识到，即使选手每次投篮命中的可能性都是50%，他也会时而五投四中，时而五投一中。</p>
+</blockquote>
+<hr>
+<p>◆ 第9章 胜者的诅咒</p>
+<p>我们常认为供给与需求相辅相成，实际在新事物出现时，往往是需求先行，供给只是为了更好的满足需求。反观当下，很多还停留在炫技的所谓技术革命只不过是自我麻醉。</p>
+<blockquote>
+<p>供给不会自动创造需求；相反，需求常常会创造供给。</p>
+</blockquote>
+<hr>
+<p>回归有一个条件，影响结果的条件相对独立，这有点像形成正态分布的条件，举个小例子，有一组1到100的整数，随机从里面取两个数取平均值，当实验很多次后，会发现这个平均数趋于50。</p>
+<blockquote>
+<p>异常的父母通常拥有不太异常的孩子，反之亦然；同样的道理，不管我们沿着时间前进还是后退，利润率都会出现回归。观测到的回归只能证明当利润率在能力值附近波动时，观测到的利润率差异大于实际能力值的差异。</p>
+</blockquote>
+<hr>
+<p>均值回归的时间成本相对较高，五年的时间，不是所有人都能熬过的，而且五年后是这样，3年后或6年后的结果呢？均值回归的趋势并不是单调的，这似乎就能体现投机者和投资者的差异吧。</p>
+<blockquote>
+<p>在被踢出道指五年半以后，西尔斯在2005年被凯马特收购。如果你在西尔斯被道指删除以后立即购买它的股票，那么到西尔斯被凯马特收购的时候，你的总回报率将达到103%。在同样的五年半时间里，取代西尔斯的家得宝下跌了22%。</p>
+</blockquote>
+<hr>
+<p>◆ 第10章 如何转变运气？</p>
+<p>世界可能是上帝随机的骰子，但是在每一个人可掌控的那一微末范围内，用上帝的视角思考往往得不偿失。还不如去拥抱现在的规律，发生了什么就勇于去接受，存在即合理也有一定的道理。</p>
+<blockquote>
+<p>霉运不会提高好运的可能性，反之亦然。每一次失败不会提高成功的可能性，反之亦然。它可能仅仅是随机性的一种表现而已。</p>
+</blockquote>
+<hr>
+<p>◆ 第11章 德克萨斯神枪手</p>
+<p>细思极恐，实际中因这种对数据的过度解读产生的结论可能充斥在我们的周围，甚至是某些故意安排的伎俩，这促使我们在面对结论之前，首先思考有新数据时结论是否可被验证。</p>
+<blockquote>
+<p>我们对少年棒球联合会球场附近和水塔附近的推理存在同样的问题。如果我们根据数据编造理论（少年棒球联合会球场导致癌症，水塔预防癌症），那么这些数据当然会支持这种理论！它怎么会不支持呢？我们会编造出一种与数据不符的理论吗？当然不会。根据创建理论时使用的数据来检验这种理论的做法是不公平的。我们需要新的数据。在新数据面前，这种理论也应当成立。</p>
+</blockquote>
+<hr>
+<p>◆ 第13章 黑色星期一</p>
+<p>忽略一些数据，只是为了让留下的数据更好的支持自己最初的观念，这很符合人们的观念，认知的进步基本上都是基于过去的知识来对未知进行推理，这就难免推理中会保留历史知识的惯性。就像我写下这个想法，并不是单独是因为作者的这个观点，还因为我对这个观点做出了认同或否定的态度。人的认知地图也是这样不断丰富完善的。</p>
+<blockquote>
+<p>在“挑战者”号的例子中，对于重要数据的忽略是一个无心而致命的错误。在其他情形中，人们故意忽略一些数据，因为这些数据不支持他们事先形成的观念。为了相信某件事情是正确的，他们丢弃了与这种信念相冲突的数据。</p>
+</blockquote>
+<hr>
+<p>◆ 第16章 彩票是一种智商税</p>
+<p>如果只是使用过去的趋势预测未来，而不考虑实际意义，得出的结论往往是荒谬的，数据有价值，但是只有给数据赋予意义后才能对实际发展产生指导意义。</p>
+<blockquote>
+<p>类似地，如果我们仅仅根据过去的趋势推测未来，而不去考虑这种趋势是否有意义，那么我们的结论可能会与众所周知的真相相去甚远。如果我们对股票价格和彩票中奖数字进行仔细检查，寻找跑赢大盘和中彩票的荒谬办法，我们几乎一定会得到更加糟糕的结果。</p>
+</blockquote>
+<hr>
+<p>这句话好有意思，从后视镜中看未来，这种幽默讽刺真是让人哭笑不得。</p>
+<blockquote>
+<p>你很少能够通过后视镜看到未来。</p>
+</blockquote>
+<hr>
+<p>◆ 第17章 超级投资者</p>
+<p>不完全接受也不通盘否定，通常接受的观点而言股票市场是随机的，这没有错，不过股票价格的变化是相对连续的，这就不同于一般彩票的随机，它让寻找一定的模式成为可能，只是这个模式受到的影响因素太多，完全不可控。西蒙斯的神话是有一定理论基础的，不可高估历史数据的特征，也不可低估量化投资的力量。</p>
+<blockquote>
+<p>这些人的开创性工作很好地说明了计量金融分析的两个主要陷阱：天真地相信历史模式是对未来的可靠指引，并且依赖于在数学上很方便却不切实际而且非常危险的理论假设。</p>
+</blockquote>
+<hr>
+<p>这个故事有点意思，金融市场不会让百元纸钞躺在马路上，这是建立在完全的经济假设上，可世界上不止有金融系统，而且在纯金融市场上，躺在马路上的也应该是真钞，因为每个人都是那位金融教授。</p>
+<blockquote>
+<p>两位金融教授在人行道上看到了一张一百元的钞票。当一位教授伸手去捡钞票时，另一个人说：“别理它；如果它是真的，那么它早就被人捡走了。”金融教授喜欢说，金融市场不会让百元钞票躺在人行道上；也就是说，如果有一种轻松的赚钱方式，那么它早就被人发现了。</p>
+</blockquote>
+<p>完 ～ </p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Boole</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://booleflow.com/2021/01/02/jian-dan-tong-ji-xue-ru-he-qing-song-shi-po-yi-ben-zheng-jing-de-hu-shuo-ba-dao/">http://booleflow.com/2021/01/02/jian-dan-tong-ji-xue-ru-he-qing-song-shi-po-yi-ben-zheng-jing-de-hu-shuo-ba-dao/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Boole</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/">
+                                    <span class="chip bg-color">统计学</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                                    <span class="chip bg-color">生活</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%8A%A0%E9%87%8C%C2%B7%E5%8F%B2%E5%AF%86%E6%96%AF/">
+                                    <span class="chip bg-color">加里·史密斯</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'wE9QY7lj3uht6RzKknykllXG-gzGzoHsz',
+        appKey: '2fL1NO5XQwLBGxO5yOfqN6Lv',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/01/02/pin-qiong-de-ben-zhi-wo-men-wei-shi-me-bai-tuo-bu-liao-pin-qiong/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="《贫穷的本质：我们为什么摆脱不了贫穷》">
+                        
+                        <span class="card-title">《贫穷的本质：我们为什么摆脱不了贫穷》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            贫困已经跟随我们数千年，不会因为数十年的举措就被根除，但是通过自己及社会的协同，至少可以让人们不再为了每天99美分的生活成本而备受折磨。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%BB%8F%E6%B5%8E/">
+                        <span class="chip bg-color">经济</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%B4%AB%E7%A9%B7/">
+                        <span class="chip bg-color">贫穷</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%98%BF%E6%AF%94%E5%90%89%E7%89%B9%C2%B7%E7%8F%AD%E7%BA%B3%E5%90%89/">
+                        <span class="chip bg-color">阿比吉特·班纳吉</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9F%83%E6%96%AF%E7%89%B9%C2%B7%E8%BF%AA%E5%BC%97%E6%B4%9B/">
+                        <span class="chip bg-color">埃斯特·迪弗洛</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/01/02/ni-suo-bu-liao-jie-de-leng-men-zhi-shi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="《你所不了解的冷门知识》">
+                        
+                        <span class="card-title">《你所不了解的冷门知识》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            本书中尽可能用科学实验的方式来复现现实问题，读这本书最大的感受就是“原来是这样”。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                        <span class="chip bg-color">生活</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%BF%BD%E6%A0%B9%E6%BA%AF%E6%BA%90/">
+                        <span class="chip bg-color">追根溯源</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B0%8F%E5%B7%AB%E5%8D%9A%E5%A3%AB/">
+                        <span class="chip bg-color">小巫博士</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('3'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020 - 2021</span>
+            <a href="/about" target="_blank">Boole</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">289.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "14";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

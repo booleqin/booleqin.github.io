@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Boole Flow</title>
+  
+  <subtitle>Boole Flow</subtitle>
+  <link href="http://booleflow.com/atom.xml" rel="self"/>
+  
+  <link href="http://booleflow.com/"/>
+  <updated>2021-07-31T14:50:15.627Z</updated>
+  <id>http://booleflow.com/</id>
+  
+  <author>
+    <name>Boole</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Production Costs</title>
+    <link href="http://booleflow.com/2021/07/03/production-costs/"/>
+    <id>http://booleflow.com/2021/07/03/production-costs/</id>
+    <published>2021-07-03T09:32:49.000Z</published>
+    <updated>2021-07-31T14:50:15.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What-is-Costs&quot;&gt;&lt;a href=&quot;#What-is-Costs&quot; class=&quot;headerlink&quot; title=&quot;What is Costs&quot;&gt;&lt;/a&gt;What is Costs&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="机会成本" scheme="http://booleflow.com/tags/%E6%9C%BA%E4%BC%9A%E6%88%90%E6%9C%AC/"/>
+    
+    <category term="边际成本" scheme="http://booleflow.com/tags/%E8%BE%B9%E9%99%85%E6%88%90%E6%9C%AC/"/>
+    
+    <category term="规模经济" scheme="http://booleflow.com/tags/%E8%A7%84%E6%A8%A1%E7%BB%8F%E6%B5%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>税制的设计</title>
+    <link href="http://booleflow.com/2021/06/13/shui-zhi-de-she-ji/"/>
+    <id>http://booleflow.com/2021/06/13/shui-zhi-de-she-ji/</id>
+    <published>2021-06-13T09:15:02.000Z</published>
+    <updated>2021-07-31T08:24:54.514Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;美国政府的财政概况&quot;&gt;&lt;a href=&quot;#美国政府的财政概况&quot; class=&quot;headerlink&quot; title=&quot;美国政府的财政概况&quot;&gt;&lt;/a&gt;美国政府的财政概况&lt;/h2&gt;&lt;h3 id=&quot;联邦政府&quot;&gt;&lt;a href=&quot;#联邦政府&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="无谓损失" scheme="http://booleflow.com/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/"/>
+    
+    <category term="税收" scheme="http://booleflow.com/tags/%E7%A8%8E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公共物品和公共资源</title>
+    <link href="http://booleflow.com/2021/06/12/gong-gong-wu-pin-he-gong-gong-zi-yuan/"/>
+    <id>http://booleflow.com/2021/06/12/gong-gong-wu-pin-he-gong-gong-zi-yuan/</id>
+    <published>2021-06-12T11:01:20.000Z</published>
+    <updated>2021-07-31T08:24:54.405Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;经济物品分类&quot;&gt;&lt;a href=&quot;#经济物品分类&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="竞争性" scheme="http://booleflow.com/tags/%E7%AB%9E%E4%BA%89%E6%80%A7/"/>
+    
+    <category term="排他性" scheme="http://booleflow.com/tags/%E6%8E%92%E4%BB%96%E6%80%A7/"/>
+    
+    <category term="搭便车" scheme="http://booleflow.com/tags/%E6%90%AD%E4%BE%BF%E8%BD%A6/"/>
+    
+    <category term="公地悲剧" scheme="http://booleflow.com/tags/%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>市场外部性</title>
+    <link href="http://booleflow.com/2021/06/06/shi-chang-wai-bu-xing/"/>
+    <id>http://booleflow.com/2021/06/06/shi-chang-wai-bu-xing/</id>
+    <published>2021-06-06T08:13:55.000Z</published>
+    <updated>2021-07-31T08:24:54.440Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;正外部性与负外部性&quot;&gt;&lt;a href=&quot;#正外部性与负外部性&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="市场效率" scheme="http://booleflow.com/tags/%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87/"/>
+    
+    <category term="市场失灵" scheme="http://booleflow.com/tags/%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5/"/>
+    
+    <category term="正外部性" scheme="http://booleflow.com/tags/%E6%AD%A3%E5%A4%96%E9%83%A8%E6%80%A7/"/>
+    
+    <category term="负外部性" scheme="http://booleflow.com/tags/%E8%B4%9F%E5%A4%96%E9%83%A8%E6%80%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《未来简史-从智人到智神》</title>
+    <link href="http://booleflow.com/2021/06/05/wei-lai-jian-shi-cong-zhi-ren-dao-zhi-shen/"/>
+    <id>http://booleflow.com/2021/06/05/wei-lai-jian-shi-cong-zhi-ren-dao-zhi-shen/</id>
+    <published>2021-06-05T09:40:53.000Z</published>
+    <updated>2021-07-31T08:24:54.357Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《未来简史-从智人到智神》，尤瓦尔·赫拉利著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人类在20世纪使得饥荒、瘟疫和战争的发生概率不断减小，那么在21世纪会是什么事情成为人类的新议题</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="人文主义" scheme="http://booleflow.com/tags/%E4%BA%BA%E6%96%87%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="科技主义" scheme="http://booleflow.com/tags/%E7%A7%91%E6%8A%80%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="尤瓦尔·赫拉利" scheme="http://booleflow.com/tags/%E5%B0%A4%E7%93%A6%E5%B0%94%C2%B7%E8%B5%AB%E6%8B%89%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史5》</title>
+    <link href="http://booleflow.com/2021/05/05/ban-xiao-shi-man-hua-zhong-guo-shi-5/"/>
+    <id>http://booleflow.com/2021/05/05/ban-xiao-shi-man-hua-zhong-guo-shi-5/</id>
+    <published>2021-05-05T07:20:19.000Z</published>
+    <updated>2021-07-31T08:24:54.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史5》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;朱元璋建立了大明王朝，之后经历了16位皇帝，最后被吴三桂放大清过了三海关，大明算是告一段落，大清经历了雍</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="明朝" scheme="http://booleflow.com/tags/%E6%98%8E%E6%9C%9D/"/>
+    
+    <category term="清朝" scheme="http://booleflow.com/tags/%E6%B8%85%E6%9C%9D/"/>
+    
+    <category term="二混子陈磊" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90%E9%99%88%E7%A3%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史4》</title>
+    <link href="http://booleflow.com/2021/05/04/ban-xiao-shi-man-hua-zhong-guo-shi-4/"/>
+    <id>http://booleflow.com/2021/05/04/ban-xiao-shi-man-hua-zhong-guo-shi-4/</id>
+    <published>2021-05-04T09:50:16.000Z</published>
+    <updated>2021-07-31T08:24:54.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史4》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;唐朝灭亡后，各地藩镇轮番开始广场舞，出现了五代十国。宋朝在一番征战之后终于杀了出来，可是最后一个皇帝宋徽</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="宋朝" scheme="http://booleflow.com/tags/%E5%AE%8B%E6%9C%9D/"/>
+    
+    <category term="蒙古帝国" scheme="http://booleflow.com/tags/%E8%92%99%E5%8F%A4%E5%B8%9D%E5%9B%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史3》</title>
+    <link href="http://booleflow.com/2021/05/03/ban-xiao-shi-man-hua-zhong-guo-shi-3/"/>
+    <id>http://booleflow.com/2021/05/03/ban-xiao-shi-man-hua-zhong-guo-shi-3/</id>
+    <published>2021-05-03T03:19:32.000Z</published>
+    <updated>2021-07-31T08:24:54.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史3》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从盛产败家子的南北朝，到只有两个皇帝的隋朝，后面大量篇幅讲了唐朝，唐太宗、武则天、唐玄宗算是唐朝的皇帝代</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="南北朝" scheme="http://booleflow.com/tags/%E5%8D%97%E5%8C%97%E6%9C%9D/"/>
+    
+    <category term="隋朝" scheme="http://booleflow.com/tags/%E9%9A%8B%E6%9C%9D/"/>
+    
+    <category term="唐朝" scheme="http://booleflow.com/tags/%E5%94%90%E6%9C%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史2》</title>
+    <link href="http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/"/>
+    <id>http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/</id>
+    <published>2021-05-02T10:44:58.000Z</published>
+    <updated>2021-07-31T08:24:54.354Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史2》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;串故事逻辑非常好，从西汉到王莽篡权再到东汉，从东汉末年的董卓袁绍和曹操，再到三国的官渡之战、赤壁之战和夷</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="东西汉" scheme="http://booleflow.com/tags/%E4%B8%9C%E8%A5%BF%E6%B1%89/"/>
+    
+    <category term="三国鼎立" scheme="http://booleflow.com/tags/%E4%B8%89%E5%9B%BD%E9%BC%8E%E7%AB%8B/"/>
+    
+    <category term="魏晋南北朝" scheme="http://booleflow.com/tags/%E9%AD%8F%E6%99%8B%E5%8D%97%E5%8C%97%E6%9C%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《半小时漫画中国史1》</title>
+    <link href="http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/"/>
+    <id>http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/</id>
+    <published>2021-05-01T10:53:16.000Z</published>
+    <updated>2021-07-31T08:24:54.354Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史1》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用漫画的形式讲述历史故事，可能没办法呈现更多的细节，但是能让读者去理解历史脉络，建立自己的历史观。个人感</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="春秋五霸" scheme="http://booleflow.com/tags/%E6%98%A5%E7%A7%8B%E4%BA%94%E9%9C%B8/"/>
+    
+    <category term="战国七雄" scheme="http://booleflow.com/tags/%E6%88%98%E5%9B%BD%E4%B8%83%E9%9B%84/"/>
+    
+    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国际贸易的得失</title>
+    <link href="http://booleflow.com/2021/04/04/guo-ji-mao-yi-de-de-shi/"/>
+    <id>http://booleflow.com/2021/04/04/guo-ji-mao-yi-de-de-shi/</id>
+    <published>2021-04-04T10:20:41.000Z</published>
+    <updated>2021-07-31T08:24:54.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;决定贸易的因素&quot;&gt;&lt;a href=&quot;#决定贸易的因素&quot; class=&quot;headerlink&quot; title=&quot;决定贸易的因素&quot;&gt;&lt;/a&gt;决定贸易的因素&lt;/h2&gt;&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="贸易" scheme="http://booleflow.com/tags/%E8%B4%B8%E6%98%93/"/>
+    
+    <category term="无谓损失" scheme="http://booleflow.com/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/"/>
+    
+    <category term="关税" scheme="http://booleflow.com/tags/%E5%85%B3%E7%A8%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>赋税的代价</title>
+    <link href="http://booleflow.com/2021/04/04/fu-shui-de-dai-jie/"/>
+    <id>http://booleflow.com/2021/04/04/fu-shui-de-dai-jie/</id>
+    <published>2021-04-04T08:46:21.000Z</published>
+    <updated>2021-07-31T08:24:54.514Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;赋税的无谓损失&quot;&gt;&lt;a href=&quot;#赋税的无谓损失&quot; class=&quot;headerlink&quot; title=&quot;赋税的无谓损失&quot;&gt;&lt;/a&gt;赋税的无谓损失&lt;/h2&gt;&lt;h3 id=&quot;赋税的影响&quot;&gt;&lt;a href=&quot;#赋税的影响&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="贸易" scheme="http://booleflow.com/tags/%E8%B4%B8%E6%98%93/"/>
+    
+    <category term="无谓损失" scheme="http://booleflow.com/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/"/>
+    
+    <category term="赋税" scheme="http://booleflow.com/tags/%E8%B5%8B%E7%A8%8E/"/>
+    
+    <category term="福利" scheme="http://booleflow.com/tags/%E7%A6%8F%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>剩余与市场效率</title>
+    <link href="http://booleflow.com/2021/04/03/sheng-yu-yu-shi-chang-xiao-lu/"/>
+    <id>http://booleflow.com/2021/04/03/sheng-yu-yu-shi-chang-xiao-lu/</id>
+    <published>2021-04-03T09:46:28.000Z</published>
+    <updated>2021-07-31T08:24:54.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;消费者剩余&quot;&gt;&lt;a href=&quot;#消费者剩余&quot; class=&quot;headerlink&quot; title=&quot;消费者剩余&quot;&gt;&lt;/a&gt;消费者剩余&lt;/h2&gt;&lt;h3 id=&quot;支付意愿&quot;&gt;&lt;a href=&quot;#支付意愿&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="消费者剩余" scheme="http://booleflow.com/tags/%E6%B6%88%E8%B4%B9%E8%80%85%E5%89%A9%E4%BD%99/"/>
+    
+    <category term="生产者剩余" scheme="http://booleflow.com/tags/%E7%94%9F%E4%BA%A7%E8%80%85%E5%89%A9%E4%BD%99/"/>
+    
+    <category term="市场效率" scheme="http://booleflow.com/tags/%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>社群编码识别黑灰产攻击实践</title>
+    <link href="http://booleflow.com/2021/04/03/she-qun-bian-ma-shi-bie-hei-hui-chan-gong-ji-shi-jian/"/>
+    <id>http://booleflow.com/2021/04/03/she-qun-bian-ma-shi-bie-hei-hui-chan-gong-ji-shi-jian/</id>
+    <published>2021-04-03T03:45:09.000Z</published>
+    <updated>2021-07-31T08:24:54.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;导读&quot;&gt;&lt;a href=&quot;#导读&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="ML&amp;DL" scheme="http://booleflow.com/categories/ML-DL/"/>
+    
+    
+    <category term="社群挖掘" scheme="http://booleflow.com/tags/%E7%A4%BE%E7%BE%A4%E6%8C%96%E6%8E%98/"/>
+    
+    <category term="黑灰产攻击" scheme="http://booleflow.com/tags/%E9%BB%91%E7%81%B0%E4%BA%A7%E6%94%BB%E5%87%BB/"/>
+    
+    <category term="GraphSAGE" scheme="http://booleflow.com/tags/GraphSAGE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《稀缺：我们是如何陷入贫穷与忙碌的》</title>
+    <link href="http://booleflow.com/2021/03/28/xi-que-wo-men-shi-ru-he-xian-ru-pin-qiong-yu-mang-lu-de/"/>
+    <id>http://booleflow.com/2021/03/28/xi-que-wo-men-shi-ru-he-xian-ru-pin-qiong-yu-mang-lu-de/</id>
+    <published>2021-03-28T15:50:51.000Z</published>
+    <updated>2021-07-31T08:24:54.357Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《稀缺：我们是如何陷入贫穷与忙碌的》，塞德希尔·穆来纳森著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们所有人都必须面对有限的金钱、时间等资源，所以有必要学习一下避免掉入稀缺陷阱的艺</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="专注红利" scheme="http://booleflow.com/tags/%E4%B8%93%E6%B3%A8%E7%BA%A2%E5%88%A9/"/>
+    
+    <category term="管窥之见" scheme="http://booleflow.com/tags/%E7%AE%A1%E7%AA%A5%E4%B9%8B%E8%A7%81/"/>
+    
+    <category term="带宽" scheme="http://booleflow.com/tags/%E5%B8%A6%E5%AE%BD/"/>
+    
+    <category term="塞德希尔·穆来纳森" scheme="http://booleflow.com/tags/%E5%A1%9E%E5%BE%B7%E5%B8%8C%E5%B0%94%C2%B7%E7%A9%86%E6%9D%A5%E7%BA%B3%E6%A3%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>量化投资概念与技术</title>
+    <link href="http://booleflow.com/2021/03/27/liang-hua-tou-zi-gai-nian-yu-ji-zhu/"/>
+    <id>http://booleflow.com/2021/03/27/liang-hua-tou-zi-gai-nian-yu-ji-zhu/</id>
+    <published>2021-03-27T08:45:09.000Z</published>
+    <updated>2021-07-31T08:24:54.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;策略众多，难以面面俱到，只做引子。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E5%B9%BB%E7%81%AF%E7%89%8701.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;%E5%B9%BB%E7%81%AF%E7%89%8702.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="量化投资" scheme="http://booleflow.com/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="金融学" scheme="http://booleflow.com/tags/%E9%87%91%E8%9E%8D%E5%AD%A6/"/>
+    
+    <category term="数学" scheme="http://booleflow.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>正则化那些事</title>
+    <link href="http://booleflow.com/2021/03/22/zheng-ze-hua-na-xie-shi/"/>
+    <id>http://booleflow.com/2021/03/22/zheng-ze-hua-na-xie-shi/</id>
+    <published>2021-03-22T07:14:20.000Z</published>
+    <updated>2021-07-31T08:24:54.489Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;正则化&quot;&gt;&lt;a href=&quot;#正则化&quot; class=&quot;headerlink&quot; title=&quot;正则化&quot;&gt;&lt;/a&gt;正则化&lt;/h2&gt;&lt;h3 id=&quot;泛化误差、方差、偏差&quot;&gt;&lt;a href=&quot;#泛化误差、方差、偏差&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="ML&amp;DL" scheme="http://booleflow.com/categories/ML-DL/"/>
+    
+    
+    <category term="正则化" scheme="http://booleflow.com/tags/%E6%AD%A3%E5%88%99%E5%8C%96/"/>
+    
+    <category term="过拟合" scheme="http://booleflow.com/tags/%E8%BF%87%E6%8B%9F%E5%90%88/"/>
+    
+    <category term="模型复杂度" scheme="http://booleflow.com/tags/%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>neo4j使用详解</title>
+    <link href="http://booleflow.com/2021/03/13/neo4j-shi-yong-xiang-jie/"/>
+    <id>http://booleflow.com/2021/03/13/neo4j-shi-yong-xiang-jie/</id>
+    <published>2021-03-13T03:11:19.000Z</published>
+    <updated>2021-07-31T08:24:54.325Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装neo4j&quot;&gt;&lt;a href=&quot;#安装neo4j&quot; class=&quot;headerlink&quot; title=&quot;安装neo4j&quot;&gt;&lt;/a&gt;安装neo4j&lt;/h2&gt;&lt;h3 id=&quot;neo4j简介&quot;&gt;&lt;a href=&quot;#neo4j简介&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机技术" scheme="http://booleflow.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="neo4j" scheme="http://booleflow.com/tags/neo4j/"/>
+    
+    <category term="非关系型数据库" scheme="http://booleflow.com/tags/%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="Cypher" scheme="http://booleflow.com/tags/Cypher/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SiameseNetwork孪生神经网络原理及实现</title>
+    <link href="http://booleflow.com/2021/03/06/siamesenetwork-luan-sheng-shen-jing-wang-luo-yuan-li-ji-shi-xian/"/>
+    <id>http://booleflow.com/2021/03/06/siamesenetwork-luan-sheng-shen-jing-wang-luo-yuan-li-ji-shi-xian/</id>
+    <published>2021-03-06T09:39:47.000Z</published>
+    <updated>2021-07-31T08:24:54.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Siamese-network&quot;&gt;&lt;a href=&quot;#Siamese-network&quot; class=&quot;headerlink&quot; title=&quot;Siamese network&quot;&gt;&lt;/a&gt;Siamese</summary>
+        
+      
+    
+    
+    
+    <category term="ML&amp;DL" scheme="http://booleflow.com/categories/ML-DL/"/>
+    
+    
+    <category term="SiameseNetwork" scheme="http://booleflow.com/tags/SiameseNetwork/"/>
+    
+    <category term="相似度" scheme="http://booleflow.com/tags/%E7%9B%B8%E4%BC%BC%E5%BA%A6/"/>
+    
+    <category term="pytorch" scheme="http://booleflow.com/tags/pytorch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《逆商：我们该如何应对坏事件》</title>
+    <link href="http://booleflow.com/2021/02/28/ni-shang-wo-men-gai-ru-he-ying-dui-pi-shi-jian/"/>
+    <id>http://booleflow.com/2021/02/28/ni-shang-wo-men-gai-ru-he-ying-dui-pi-shi-jian/</id>
+    <published>2021-02-28T15:26:06.000Z</published>
+    <updated>2021-07-31T08:24:54.373Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《逆商：我们该如何应对坏事件》，保罗·史托兹著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们似乎对讨论智商和情商习以为常，可当讨论起逆商，感觉却有点神秘。提出一个解决问题的方案就可以</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="攀登者" scheme="http://booleflow.com/tags/%E6%94%80%E7%99%BB%E8%80%85/"/>
+    
+    <category term="逆商" scheme="http://booleflow.com/tags/%E9%80%86%E5%95%86/"/>
+    
+    <category term="保罗·史托兹" scheme="http://booleflow.com/tags/%E4%BF%9D%E7%BD%97%C2%B7%E5%8F%B2%E6%89%98%E5%85%B9/"/>
+    
+  </entry>
+  
+</feed>

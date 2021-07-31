@@ -1,0 +1,1508 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="数据预处理的套路, Boole Flow">
+    <meta name="description" content="Emotion defines life, data quantifies the world, and models predict the future.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>数据预处理的套路 | Boole Flow</title>
+    <link rel="icon" type="image/png" href="/booleicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Boole Flow" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/boolelogo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Boole Flow</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/boolelogo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Boole Flow</div>
+        <div class="logo-desc">
+            
+            Emotion defines life, data quantifies the world, and models predict the future.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/booleqin/booleqin.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">数据预处理的套路</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">
+                                <span class="chip bg-color">数据分析</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/">
+                                <span class="chip bg-color">统计学</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B/">
+                                <span class="chip bg-color">数据模型</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/DS-DM/" class="post-category">
+                                DS&DM
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-11-21
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.1k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    11 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="数据清理"><a href="#数据清理" class="headerlink" title="数据清理"></a>数据清理</h2><h3 id="缺失值处理"><a href="#缺失值处理" class="headerlink" title="缺失值处理"></a>缺失值处理</h3><ul>
+<li><strong>删除</strong></li>
+</ul>
+<p>对于缺失值比较多的元组，或损失了重要属性的元组，可考虑删除法。比如对于缺失类别的数据，在分类任务中就可以予以删除。该方法比较适合行缺失比例多的情况，不适合列缺失值百分比变化大的情况。</p>
+<ul>
+<li><strong>人工填充</strong></li>
+</ul>
+<p>这种方法主要来源于专家判断，该方法数据准确行取决于人工，而且比较费时，不适合数据集大、缺失值很多的情况。</p>
+<ul>
+<li><strong>全局常量</strong></li>
+</ul>
+<p>使用一个固定的值填充所有缺失值，如有0填充所有空值（NULL），不过该方法需要注意在分析时误将该全局值认为是数据具有的某个相同价值。</p>
+<ul>
+<li><strong>使用属性的集中度量</strong></li>
+</ul>
+<p>比如使用属性的均值、中位数、众数等填充缺失值。对称数据使用均值、倾斜数据使用中位数。</p>
+<ul>
+<li><strong>同类样本的集中度量</strong></li>
+</ul>
+<p>该方法和和属性的集中度量类似，不过该方法有一个前提条件，采用的不是全部数据，而是在其他某些属性上相同或相似的样本。选择平均数和中位数方法与前面相同。</p>
+<ul>
+<li><strong>最有可能的值</strong></li>
+</ul>
+<p>该方法需要对数据进行更加复杂的分析，如回归、贝叶斯等数据推断的方式来进行填充。或通过决策树等分类策略来判定缺失数据最有可能存在的类，然后使用同类样本的集中度量。</p>
+<h3 id="噪声数据"><a href="#噪声数据" class="headerlink" title="噪声数据"></a>噪声数据</h3><ul>
+<li><strong>分箱</strong></li>
+</ul>
+<p>噪声数据和缺失数据都属于脏数据，是数据清理的主要对象，不过噪声数据不同的是，它是被测量的变量的随机误差或方差，噪声数据可以转化为缺失数据，反之不成立。</p>
+<p>分箱适用于有序数据，它使用数据的近邻来光滑有序数据值。分布到同一个箱中的数据可以进行局部光滑，此处就可以采用缺失值处理的方法，如在箱中使用均值、中位数等。</p>
+<ul>
+<li><strong>回归</strong></li>
+</ul>
+<p>分箱是通过局部有序数据进行光滑，而回归是通过全局数据进行光滑，使用一个函数拟合来光滑数据。常用的有线性回归和多远线性回归，此处需要注意数据拟合的三种状态，欠拟合、正拟合和过拟合。</p>
+<ul>
+<li><strong>离群点分析</strong></li>
+</ul>
+<p>可以通过无监督学习的方式检测离群点，如聚类将类似的值聚成簇，落在簇外的就可以被视为离群点。</p>
+<h2 id="数据集成"><a href="#数据集成" class="headerlink" title="数据集成"></a>数据集成</h2><h3 id="实体识别"><a href="#实体识别" class="headerlink" title="实体识别"></a>实体识别</h3><p>数据集成的主要目的是合并多个数据存储的数据时，较少数据冗余和不一致。匹配多个数据源的模式，本质上就是一个实体识别问题。</p>
+<p>比如如何确定两份数据的user_id，是同一个属性，每个属性的元数据包含名字、含义、数据类型和属性值域，以及NULL、空值规则等。而且在集中过程中，需要特别注意数据结构。</p>
+<h3 id="冗余和相关"><a href="#冗余和相关" class="headerlink" title="冗余和相关"></a>冗余和相关</h3><p>这里冗余主要是属性冗余，如果一个属性是可以通过另外的属性“变换”出，那么这个属性就是冗余的，这种冗余可以通过相关分析检出。</p>
+<ul>
+<li>对于标量数据，可以通过$\chi^{2}$（卡方）检验。</li>
+</ul>
+<p>假设X有m个不同值$x_{1}, x_{2}, \cdots, x_{m}$，Y有n和不同值$y_{1}, y_{2}, \cdots, y_{n}$。令$(X_{i}, Y_{j})$为属性X取$x_{i}$和属性Y取$y_{j}$的联合事件，则$\chi^{2}$（卡方）统计量为：</p>
+<p>$$\chi^{2} = \sum_{i = 1}^{m}\sum_{j = 1}^{n}\frac{(o_{ij} - e_{ij})^{2}}{e_{ij}}$$</p>
+<p>其中$o_{ij}$表示联合事件$(X_{i}, Y_{j})$的观测频度，$e_{ij}$表示$(X_{i}, Y_{j})$期望频度，为</p>
+<p>$$e_{ij} = \frac{1}{n}count(X = x_{i}) * count(Y = y_{j})$$</p>
+<ul>
+<li>对于数值数据，可以使用相关系数和协方差检验。</li>
+</ul>
+<p>相关系数计算公式为</p>
+<p>$$r(X, Y) = \frac{\sum_{i = 1}^{n}(x_{i} - \overline{X})(y_{i} - \overline{Y})}{n \sigma_{X} \sigma_{Y}}$$</p>
+<p>协方差$cov(X, Y)$是方差的泛化形式，定义为</p>
+<p>$$cov(X, Y) = E(X - \overline{X})(Y - \overline{Y}) = \frac{\sum_{i = 1}^{n}(x_{i} - \overline{X})(y_{i} - \overline{Y})}{n}$$</p>
+<p>和相关系数放在一起，就变成了</p>
+<p>$$r(X, Y) = \frac{cov(X , Y)}{\sigma_{X} \sigma_{Y}}$$</p>
+<h3 id="重复元组"><a href="#重复元组" class="headerlink" title="重复元组"></a>重复元组</h3><p>冗余和相关是检查属性，重复是检查元组，这对于设置数据库的相关键非常重要。</p>
+<h2 id="数据归约"><a href="#数据归约" class="headerlink" title="数据归约"></a>数据归约</h2><h3 id="维归约"><a href="#维归约" class="headerlink" title="维归约"></a>维归约</h3><p>维规约是减少需要考虑的属性个数，该方法将源数据投影到更小的空间内。此处主要聊三种方式，分别是属性子集选择、小波变换和主成分分析。</p>
+<ul>
+<li><strong>属性子集选择</strong></li>
+</ul>
+<p>属性子集选择是通过删除与分析目的不相关或冗余的属性，使得分析目的更容易实现或理解。如何选择出最好的子集，就是此处我们需要重点考虑的问题，“最好”通常使用统计的显著性检验来确定，这里不详细描述假设检验，直接提供4中子集选择方法。</p>
+<ol>
+<li><p>向前选择，该过程从空属性集开始，每次迭代将原属性中最好的属性加入集合中，最终选择最优属性集合。</p>
+</li>
+<li><p>向后删除， 和向前选择相反，该过程从全集开始，每次迭代从原属性中选择最差的属性从集合中删除，最终留下的就是最优属性集合。</p>
+</li>
+<li><p>向前选择和向后删除组合， 高过程就是前面两种方法的组合，每一次迭代，选择最优的属性加入集合中，也从集合中删除最差的属性。</p>
+</li>
+<li><p>决策树归纳， 决策树最开始的目的是用于分类，它可以在每个节点上选择最好的属性，将数据进行分类，所以可以将出现在树中的属性归约为属性子集。</p>
+</li>
+</ol>
+<ul>
+<li><strong>小波变换</strong></li>
+</ul>
+<p>离散小波变换（DWT）是一种信号处理技术，他可以用于多维数据变换，它的主要思想是通过一些留存一些最强的小波系数，以保留近似的压缩数据。如用户设定一个阈值，大于这个阈值的小波属性予以保留，小于该属性的值置0，如此可以得到更为系数的数据，如此在小波空间内计算就会变得更高效。该方法不只可用于数据归约，由于它可以光滑数据，所以还可以用于数据噪声处理。</p>
+<p>小波变换是一个很大的课题，与其关联的还有傅里叶变化等，此处不展开。</p>
+<ul>
+<li><strong>主成分分析</strong></li>
+</ul>
+<p>主成分分析（PCA）属于泛因子分析的一种（主成分分析中主成分是原始变量的线性组合，因子分析中原始变量是新因子的线性组合），它是搜索k（$k \leq n$）最能代表数据的n维正交向量，如此，就把原属性投影到来一个更小的属性空间上，使得维规约。该方法与子集选择不同的是，它会创建一个替换原属性集的新属性集，而不是直接在原属性集上选择子集。其主要过程为</p>
+<ol>
+<li><p>规范化输入数据，主要目的是避免较大属性在整个选择过程中权重过大。</p>
+</li>
+<li><p>计算k个标准正交向量（正交可以理解为低维空间中的垂直），作为规范化输入数据的基，这些向量就是主成分，输入数据是这些主成分的线性组合。</p>
+</li>
+<li><p>主成分充当了数据的新坐标系，提供了方差信息，理论上当$k=n$时，就能代表全部信息。</p>
+</li>
+<li><p>对左右成分按照重要性排序，去掉比较弱的成本，保留下来的就是主成本。</p>
+</li>
+</ol>
+<p>与小波变换相比，主成分分析可以更好的处理稀疏数据，而小波变换更适合高维数据。</p>
+<p>如下面这种形式</p>
+<p>$$a_{1} = k_{11} * a_{1} + k_{12} * a_{2} + \cdots + k_{1n} * a_{n}$$</p>
+<p>$$a_{2} = k_{21} * a_{1} + k_{22} * a_{2} + \cdots + k_{2n} * a_{n}$$</p>
+<p>$$\cdots \cdots$$</p>
+<p>$$a_{m} = k_{m1} * a_{1} + k_{m2} * a_{2} + \cdots + k_{mn} * a_{n}$$</p>
+<h3 id="数量归约"><a href="#数量归约" class="headerlink" title="数量归约"></a>数量归约</h3><ul>
+<li><strong>参数方法</strong></li>
+</ul>
+<p>数量规约就是使用较小的数据来替换原数据意义，参数方法就是使用模型来估计数据，使得最终存储只需要存储模型参数，而不是实际数据。一个简单的例子，比如现在有10000个房屋面积、地域、交通及房价的关系数据，在很大程度上，就可以建立一个回归模型来表示这个数据，而不是存储所有数据。如对于$x, y$两个变量，我们可以建立如下的线性函数以表示它们的关系。</p>
+<p>$$y = ax + b$$</p>
+<p>$a, b$为回归系数，分别是斜率和截距，求解方法常为最小二乘法。</p>
+<ul>
+<li><strong>非参数方法</strong></li>
+</ul>
+<p>非参数方法不是使用参数来表示原数据，而是通过对数据进行一些特殊的划分以减少原数据。</p>
+<ol>
+<li><p>最常用的就是抽样，抽样方法有很多，比如有放回抽样，无放回抽样，簇抽样，分层抽样等。抽样是一个很高效的方法，它的复杂度只为$O(n)$，而下面介绍的直方图，复杂度却是指数型的。</p>
+</li>
+<li><p>直方图也是一个很常用的方法，该方法使用对数据分箱的方式来进行数据归约。为来确定箱和属性值的划分，涉及两中规则，分别是等宽（每个箱的宽度区间一致）和等频（每个箱的频度初略估计为一个常数）。</p>
+</li>
+<li><p>聚类技术也可以用于数据规约，每个簇内的对象相互相似（和直方图中的箱类似），而与其他簇相异。不过用簇代替实际数据，比较依赖数据的性质，比如数据在拓扑结构上就能组织成簇，那该方法就会比较有效。当然，如果数据本身非常离散，不具有局部相似的结构，基本上也就不能进行很好的数量归约。</p>
+</li>
+</ol>
+<h3 id="数据压缩"><a href="#数据压缩" class="headerlink" title="数据压缩"></a>数据压缩</h3><p>数据压缩是通过数据变换对原数据进行归约或压缩，前面的维归约和数量归约都可以理解为数据压缩的一种。数据压缩分为无损压缩和有损压缩。</p>
+<ul>
+<li>无损压缩，原数据能够从压缩过的数据重构而得，同时不损失信息。</li>
+<li>有损压缩，只能近似重构原数据。</li>
+</ul>
+<h2 id="数据变换"><a href="#数据变换" class="headerlink" title="数据变换"></a>数据变换</h2><h3 id="规范化"><a href="#规范化" class="headerlink" title="规范化"></a>规范化</h3><p>数据变换的主要目的是将数据加工成容易分析挖掘的形式，除规范化外，还有数据光滑，特征工程，数据分组和离散化等。如前面提到的分箱、回归都是在进行数据光滑，特征工程的内容很丰富，此处不展开。</p>
+<p>这里介绍两种最常用的规范化方法，分别是归一化和标准化。</p>
+<ul>
+<li><strong>归一化</strong></li>
+</ul>
+<p>顾名思义，就是把原数据规范到固定的0-1区间内进行分析，就像前面介绍主成分分析时候，为了避免数值较大属性对维规约的影响，就会对原数据进行规范化处理。</p>
+<p>归一化计算公式：</p>
+<p>$$x_{i}(new) = \frac{x_{i} - min(X)}{max(X) - min(X)}$$</p>
+<ul>
+<li><strong>标准化</strong></li>
+</ul>
+<p>我们实际生活中很多数据都近似服从正态分布（具体原因可参考大数定律），所以我们可以使用正态分布的相关参数对数据进行规范化。即统计学中的$z$统计量。定义如下</p>
+<p>$$x_{i}(new) = \frac{x_{i} - \mu}{\sigma}$$</p>
+<h3 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h3><p>原数据使用区间标签和概念标签替换，这些标签可以递归的组织成更高维的概念，最终形成概念分成，达到数据分析的目的。</p>
+<p>前面提到的分箱、直方图、聚类、决策树归纳及相关分析都属于离散化技术，形成更高的概念分层。</p>
+<p>完～</p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Boole</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://booleflow.com/2020/11/21/shu-ju-yu-chu-li-de-tao-lu/">http://booleflow.com/2020/11/21/shu-ju-yu-chu-li-de-tao-lu/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Boole</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">
+                                    <span class="chip bg-color">数据分析</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/">
+                                    <span class="chip bg-color">统计学</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B/">
+                                    <span class="chip bg-color">数据模型</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'wE9QY7lj3uht6RzKknykllXG-gzGzoHsz',
+        appKey: '2fL1NO5XQwLBGxO5yOfqN6Lv',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/11/22/cong-cnn-dao-gnn-kan-tu-shen-jing-wang-luo/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="从CNN到GNN看图神经网络">
+                        
+                        <span class="card-title">从CNN到GNN看图神经网络</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            图像算是一种特殊的图结构，从CNN到GNN算是一种泛化的推广，很多逻辑都相似。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-22
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ML-DL/" class="post-category">
+                                    ML&DL
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">卷积神经网络</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9B%BE%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">图卷积神经网络</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">图神经网络</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/11/15/pandas-pivot-table-explained/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Pandas_Pivot_Table_Explained">
+                        
+                        <span class="card-title">Pandas_Pivot_Table_Explained</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            python数据分析利器，类似Excel中的数据透视表。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-15
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    计算机技术
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">
+                        <span class="chip bg-color">数据分析</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86/">
+                        <span class="chip bg-color">数据透视</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6/">
+                        <span class="chip bg-color">统计学</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('3'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020 - 2021</span>
+            <a href="/about" target="_blank">Boole</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">289.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "14";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

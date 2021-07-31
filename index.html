@@ -1,0 +1,1625 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Boole Flow">
+    <meta name="description" content="Emotion defines life, data quantifies the world, and models predict the future.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Boole Flow</title>
+    <link rel="icon" type="image/png" href="/booleicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Boole Flow" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/boolelogo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Boole Flow</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/boolelogo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Boole Flow</div>
+        <div class="logo-desc">
+            
+            Emotion defines life, data quantifies the world, and models predict the future.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/booleqin/booleqin.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<style>
+    .carousel-control {
+        width: 45px;
+        height: 45px;
+        line-height: 55px;
+        border-radius: 45px;
+        background: transparent;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    #prev-cover {
+        position: absolute;
+        top: 48%;
+        left: 8px;
+    }
+
+    #next-cover {
+        position: absolute;
+        top: 48%;
+        right: 8px;;
+    }
+
+    #prev-cover i {
+        margin-right: 3px;
+    }
+
+    #next-cover i {
+        margin-left: 3px;
+    }
+
+    .carousel-control:hover {
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .carousel-control i {
+        color: #fff;
+        font-size: 2.4rem;
+    }
+</style>
+
+
+
+<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
+    
+
+    <div class="carousel-item red white-text bg-cover about-cover">
+        <div class="container">
+            <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                Boole Flow
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['情感定义生活，数据量化世界，模式预测未来。','Emotion defines life, data quantifies the world, and models predict the future.'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+
+
+
+            <div class="cover-btns">
+                <a href="#indexCard" class="waves-effect waves-light btn">
+                    <i class="fa fa-angle-double-down"></i>开始阅读
+                </a>
+
+                
+                    <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light btn" target="_blank">
+                        <i class="fab fa-github-alt"></i>Github
+                    </a>
+                
+            </div>
+            <div class="cover-social-link">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script>
+    $(function () {
+        let coverSlider = $('.carousel');
+
+        //用户触摸轮播自动 restartPlay 是否生效
+        let initUserPressedOrDraggedActive = false
+
+        //用户触摸轮播自动 restartPlay
+        function initUserPressedOrDragged(instance) {
+            setInterval(() => {
+                if (instance.pressed || instance.dragged) {
+                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
+                    restartPlay()
+                }
+            }, 1000)
+        }
+
+        coverSlider.carousel({
+            duration: Number('120'),
+            fullWidth: true,
+            indicators: 'true' === 'true',
+            onCycleTo() {
+                if (!initUserPressedOrDraggedActive) {
+                    // console.log('initUserPressedOrDraggedActive')
+                    initUserPressedOrDragged(this)
+                    initUserPressedOrDraggedActive = true
+                }
+            },
+        })
+
+        let carouselIntervalId;
+        
+        // Loop to call the next cover article picture.
+        let autoCarousel = function () {
+            carouselIntervalId = setInterval(function () {
+                coverSlider.carousel('next');
+            }, 5000);
+        };
+        autoCarousel();
+        
+
+        function restartPlay() {
+            
+            clearInterval(carouselIntervalId);
+            autoCarousel();
+            
+        };
+
+        
+        // prev and next cover post.
+        $('#prev-cover').click(function () {
+            coverSlider.carousel('prev');
+            restartPlay();
+        });
+        $('#next-cover').click(function () {
+            coverSlider.carousel('next');
+            restartPlay();
+        });
+        
+    });
+</script>
+
+
+
+<main class="content">
+
+    
+    <div id="indexCard" class="index-card">
+        <div class="container ">
+            <div class="card">
+                <div class="card-content">
+                    
+                        <div class="dream">
+    
+    <div class="title center-align">
+        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;写给自己的话
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
+            每天进步一点点，改变不了世界，至少改变了自己。
+        </div>
+    </div>
+</div>
+
+                    
+
+                    
+
+                    
+
+                    
+                    <div id="recommend-sections" class="recommend">
+                        
+
+
+
+
+
+<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;推荐文章</div>
+
+<div class="row">
+
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/5.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/ML-DL/" class="category">ML&amp;DL</a>
+                        
+                    
+                </div>
+                <a href="/2020/11/22/cong-cnn-dao-gnn-kan-tu-shen-jing-wang-luo/">
+                    <h3 class="post-title">从CNN到GNN看图神经网络</h3>
+                </a>
+                <p class="post-description">
+                    
+                        图像算是一种特殊的图结构，从CNN到GNN算是一种泛化的推广，很多逻辑都相似。
+                    
+                </p>
+                <a href="/2020/11/22/cong-cnn-dao-gnn-kan-tu-shen-jing-wang-luo/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/12.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="category">经济学</a>
+                        
+                    
+                </div>
+                <a href="/2020/12/13/jing-ji-xue-shi-da-yuan-li/">
+                    <h3 class="post-title">经济学十大原理</h3>
+                </a>
+                <p class="post-description">
+                    
+                        十大经济学原理，让我们更好的认识这个市场。
+                    
+                </p>
+                <a href="/2020/12/13/jing-ji-xue-shi-da-yuan-li/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" data-aos="zoom-in-up">
+        <div class="post-card" style="background-image: url('/medias/featureimages/10.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/DS-DM/" class="category">DS&amp;DM</a>
+                        
+                    
+                </div>
+                <a href="/2020/10/31/xiang-du-gu-shi-yi-yang-liao-jie-pyspark/">
+                    <h3 class="post-title">像读故事一样了解PySpark</h3>
+                </a>
+                <p class="post-description">
+                    
+                        Spark是一个开源、强大的分布式查询和处理引擎，Python作为机器学习和深度学习主流语言，PySpark终究还是不错的选择。
+                    
+                </p>
+                <a href="/2020/10/31/xiang-du-gu-shi-yi-yang-liao-jie-pyspark/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" data-aos="zoom-in-up">
+        <div class="post-card" style="background-image: url('/medias/featureimages/22.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/ML-DL/" class="category">ML&amp;DL</a>
+                        
+                    
+                </div>
+                <a href="/2020/12/26/zhi-chi-xiang-liang-ji-yuan-li-jie-xi/">
+                    <h3 class="post-title">支持向量机原理解析</h3>
+                </a>
+                <p class="post-description">
+                    
+                        支持向量机（support vector machines，SVM）是一种分类模型，其基本定义为特征空间上的间隔最大化的线性分类器，本质上是一个求解凸二次规划的问题。
+                    
+                </p>
+                <a href="/2020/12/26/zhi-chi-xiang-liang-ji-yuan-li-jie-xi/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FFCC00 0%, #FF9500 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <!-- 所有文章卡片 -->
+    <article id="articles" class="container articles">
+        <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/07/03/production-costs/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Production Costs">
+                            
+                            <span class="card-title">Production Costs</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Generally, the total revenue is easy to calculate, It is equal to the output multiplied by the price of products, but the total cost is not so easy to calculate.
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%9C%BA%E4%BC%9A%E6%88%90%E6%9C%AC/">
+                            <span class="chip bg-color">机会成本</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%BE%B9%E9%99%85%E6%88%90%E6%9C%AC/">
+                            <span class="chip bg-color">边际成本</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%A7%84%E6%A8%A1%E7%BB%8F%E6%B5%8E/">
+                            <span class="chip bg-color">规模经济</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/06/13/shui-zhi-de-she-ji/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="税制的设计">
+                            
+                            <span class="card-title">税制的设计</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                税收制度的主要目标是筹集政府收入，当在筹集是，需要优先考虑两个因素，分别是效率和平等。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/">
+                            <span class="chip bg-color">无谓损失</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%A8%8E%E6%94%B6/">
+                            <span class="chip bg-color">税收</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/06/12/gong-gong-wu-pin-he-gong-gong-zi-yuan/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="公共物品和公共资源">
+                            
+                            <span class="card-title">公共物品和公共资源</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                公共物品可能会出现搭便车的问题，而公共资源则可能会出现工地悲剧。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%AB%9E%E4%BA%89%E6%80%A7/">
+                            <span class="chip bg-color">竞争性</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%8E%92%E4%BB%96%E6%80%A7/">
+                            <span class="chip bg-color">排他性</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%90%AD%E4%BE%BF%E8%BD%A6/">
+                            <span class="chip bg-color">搭便车</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7/">
+                            <span class="chip bg-color">公地悲剧</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/06/06/shi-chang-wai-bu-xing/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="市场外部性">
+                            
+                            <span class="card-title">市场外部性</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                当一个人从事一种影响旁观者福利并对这种影响既不付报酬又不得报酬的活动时，就产生了外部性
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-06
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87/">
+                            <span class="chip bg-color">市场效率</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5/">
+                            <span class="chip bg-color">市场失灵</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%AD%A3%E5%A4%96%E9%83%A8%E6%80%A7/">
+                            <span class="chip bg-color">正外部性</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%B4%9F%E5%A4%96%E9%83%A8%E6%80%A7/">
+                            <span class="chip bg-color">负外部性</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/06/05/wei-lai-jian-shi-cong-zhi-ren-dao-zhi-shen/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="《未来简史-从智人到智神》">
+                            
+                            <span class="card-title">《未来简史-从智人到智神》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                人类在20世纪使得饥荒、瘟疫和战争的发生概率不断减小，在21世纪新议题可能是获得永生、幸福快乐和化身为神。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BA%BA%E6%96%87%E4%B8%BB%E4%B9%89/">
+                            <span class="chip bg-color">人文主义</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%A7%91%E6%8A%80%E4%B8%BB%E4%B9%89/">
+                            <span class="chip bg-color">科技主义</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%B0%A4%E7%93%A6%E5%B0%94%C2%B7%E8%B5%AB%E6%8B%89%E5%88%A9/">
+                            <span class="chip bg-color">尤瓦尔·赫拉利</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/05/05/ban-xiao-shi-man-hua-zhong-guo-shi-5/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="《半小时漫画中国史5》">
+                            
+                            <span class="card-title">《半小时漫画中国史5》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                朱元璋建立了大明王朝，之后经历了16位皇帝；大清经历了雍正、康熙和乾隆三大盛世；最后败给了慈禧光绪和西方的坚船利炮。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%98%8E%E6%9C%9D/">
+                            <span class="chip bg-color">明朝</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%B8%85%E6%9C%9D/">
+                            <span class="chip bg-color">清朝</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90%E9%99%88%E7%A3%8A/">
+                            <span class="chip bg-color">二混子陈磊</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/05/04/ban-xiao-shi-man-hua-zhong-guo-shi-4/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="《半小时漫画中国史4》">
+                            
+                            <span class="card-title">《半小时漫画中国史4》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                唐、宋、元，就这么被安排了。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/">
+                            <span class="chip bg-color">二混子</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%AE%8B%E6%9C%9D/">
+                            <span class="chip bg-color">宋朝</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%92%99%E5%8F%A4%E5%B8%9D%E5%9B%BD/">
+                            <span class="chip bg-color">蒙古帝国</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/05/03/ban-xiao-shi-man-hua-zhong-guo-shi-3/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="《半小时漫画中国史3》">
+                            
+                            <span class="card-title">《半小时漫画中国史3》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                从南北朝的一堆小国家，到隋朝的统一，到唐朝的壮大，再到变成一堆小国家。分久必合，合久必分。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/">
+                            <span class="chip bg-color">二混子</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%97%E5%8C%97%E6%9C%9D/">
+                            <span class="chip bg-color">南北朝</span>
+                        </a>
+                        
+                        <a href="/tags/%E9%9A%8B%E6%9C%9D/">
+                            <span class="chip bg-color">隋朝</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%94%90%E6%9C%9D/">
+                            <span class="chip bg-color">唐朝</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="《半小时漫画中国史2》">
+                            
+                            <span class="card-title">《半小时漫画中国史2》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                从西汉到王莽篡权再到东汉，从东汉末年的董卓袁绍和曹操，再到三国的官渡之战、赤壁之战和夷陵之战，一直到魏晋南北朝。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-02
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/">
+                            <span class="chip bg-color">二混子</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%B8%9C%E8%A5%BF%E6%B1%89/">
+                            <span class="chip bg-color">东西汉</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%B8%89%E5%9B%BD%E9%BC%8E%E7%AB%8B/">
+                            <span class="chip bg-color">三国鼎立</span>
+                        </a>
+                        
+                        <a href="/tags/%E9%AD%8F%E6%99%8B%E5%8D%97%E5%8C%97%E6%9C%9D/">
+                            <span class="chip bg-color">魏晋南北朝</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="《半小时漫画中国史1》">
+                            
+                            <span class="card-title">《半小时漫画中国史1》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                《半小时漫画中国史1》，二混子陈磊著
+注：读书笔记仅做记录，可读性较差。
+用漫画的形式讲述历史故事，可能没办法呈现更多的细节，但是能让读者去理解历史脉络，建立自己的历史观。个人感觉对于科普已经很成功了，至少我看完这本小册子，对这些词有了新的
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%98%A5%E7%A7%8B%E4%BA%94%E9%9C%B8/">
+                            <span class="chip bg-color">春秋五霸</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%88%98%E5%9B%BD%E4%B8%83%E9%9B%84/">
+                            <span class="chip bg-color">战国七雄</span>
+                        </a>
+                        
+                        <a href="/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/">
+                            <span class="chip bg-color">二混子</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/04/04/guo-ji-mao-yi-de-de-shi/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="国际贸易的得失">
+                            
+                            <span class="card-title">国际贸易的得失</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                贸易都增加了国家的总剩余，但是贸易并没有让国内每个人的状况都变好，因为不管进口还是出口都相应产生了赢家和输家，而且赢家的收益都大于输家的损失。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%B4%B8%E6%98%93/">
+                            <span class="chip bg-color">贸易</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/">
+                            <span class="chip bg-color">无谓损失</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%85%B3%E7%A8%8E/">
+                            <span class="chip bg-color">关税</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/04/04/fu-shui-de-dai-jie/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="赋税的代价">
+                            
+                            <span class="card-title">赋税的代价</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                赋税给市场的参与者带来损失，不仅是因为税收将资源从市场参与者手中转移到政府手中，还因为税收改变了激励，并扭曲了市场结果。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
+                                    经济学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%B4%B8%E6%98%93/">
+                            <span class="chip bg-color">贸易</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%97%A0%E8%B0%93%E6%8D%9F%E5%A4%B1/">
+                            <span class="chip bg-color">无谓损失</span>
+                        </a>
+                        
+                        <a href="/tags/%E8%B5%8B%E7%A8%8E/">
+                            <span class="chip bg-color">赋税</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%A6%8F%E5%88%A9/">
+                            <span class="chip bg-color">福利</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
+
+</main>
+
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a class="left btn-floating btn-large disabled">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">1 / 7</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a href="/page/2/"
+               class="right btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020 - 2021</span>
+            <a href="/about" target="_blank">Boole</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">289.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "14";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

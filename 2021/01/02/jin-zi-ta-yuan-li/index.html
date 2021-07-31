@@ -1,0 +1,1555 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="《金字塔原理》, Boole Flow">
+    <meta name="description" content="Emotion defines life, data quantifies the world, and models predict the future.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>《金字塔原理》 | Boole Flow</title>
+    <link rel="icon" type="image/png" href="/booleicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Boole Flow" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/boolelogo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Boole Flow</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/boolelogo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Boole Flow</div>
+        <div class="logo-desc">
+            
+            Emotion defines life, data quantifies the world, and models predict the future.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/booleqin/booleqin.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">《金字塔原理》</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E8%A1%A8%E8%BE%BE/">
+                                <span class="chip bg-color">表达</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%80%9D%E8%80%83/">
+                                <span class="chip bg-color">思考</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%8A%AD%E8%8A%AD%E6%8B%89%C2%B7%E6%98%8E%E6%89%98/">
+                                <span class="chip bg-color">芭芭拉·明托</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                读书笔记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-02
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4.8k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    16 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><strong>《金字塔原理》（麦肯锡40年经典培训教材），芭芭拉·明托</strong></p>
+<p><strong>注：读书笔记仅做记录，可读性较差。</strong></p>
+<p>这本书为表达，思考，演示等多个场景提供了金字塔结构的思维方式和实操技巧。从SCQA（背景，冲突，疑问，答案），从纵向到横向，从自上而下到自下而上，从演绎到归纳，从时空顺序到主观判定，多个维度向我们展示构造金字塔结构逻辑树的思维技巧。金字塔结构看似并不起眼，但是作者为金字塔赋予了一个不一样的故事，这个故事和我们生活工作息息相关，从序言开始就丝丝入扣，带入感极强，这本身就是金字塔结构思维的完美演绎。</p>
+<hr>
+<p>◆ 前言</p>
+<p>这里我关注的有价值信息是几点开会，主线只有这一个，其它事件是因此展开的，所以说明时间和简单原因就已经达到目的。而前一种表达方式的主线涉及到三个人和三个时间点的交集，还没说出具体结论，听者已经陷入了各个人物和事件的混乱之中了。</p>
+<blockquote>
+<p>今天的会议可以改在星期四上午11点开吗？因为这样对科林斯和约翰逊都更方便，唐克利福德也能参加，并且本周只有这一天会议室还没有被预订。</p>
+</blockquote>
+<hr>
+<p>◆ 第1篇 表达的逻辑</p>
+<p>增强受众的参与感。首先让受众了解主要内容，形成自己的想法，然后根据主题像剥洋葱般进行信息补充，激发探索欲，最后给受众一些发挥空间，加深印象。</p>
+<blockquote>
+<p>先从金字塔的最顶端开始，沿各个分支向下展开。首先表达的主要思想，使受众对表达者的观点产生某种疑问，而主要思想（金字塔结构中的）下一层次上的思想将回答这些疑问。通过不断进行疑问/回答式的对话，受众就可以了解文章中的全部思想。</p>
+</blockquote>
+<hr>
+<p>◆ 归类分组，将思想组织成金字塔</p>
+<p>就像机器学习中的降维，当特征向量太多时，将相关性较强的向量合并为一个向量，在尽量保留信息的同时降低模型复杂度，提高模型性能。</p>
+<blockquote>
+<p>你所要做的是提高一个抽象层次，将大脑需要处理的9个项目变成3个项目。</p>
+</blockquote>
+<hr>
+<p>◆ 自上而下表达，结论先行</p>
+<p>一句话的主谓宾定状表要明确，一个段落，一篇文章，一个报告，一场演讲，甚至一本书都是如此，主谓宾定状表就是他们的逻辑关系。</p>
+<blockquote>
+<p>无论读者的智商有多高，他们可利用的思维能力都是很有限的。一部分思维能力用于识别和解读读到的词语，另一部分用于找出各种思想之间的关系，剩下的思维能力则用于理解所表述思想的含义。</p>
+</blockquote>
+<hr>
+<p>◆ 自下而上思考，总结概括</p>
+<p>不止事物之间要进行抽象概括，逻辑关系也需要抽象概括，目的就是一个，不管是什么，尽可能的进行同类抽象，降低大脑负担。</p>
+<blockquote>
+<p>如果某组中的第一个思想是某项过程的一个步骤，那么该组中的其他思想也必须是同一过程中的其他步骤。</p>
+</blockquote>
+<hr>
+<p>逻辑顺序需要大家所接受，否则无法降低信息传递的复杂性。主要有两类四个逻辑。放之皆准（时间，空间），人为定义（主观重要，客观演绎）。</p>
+<blockquote>
+<p>组织思想基本上只可能有4种逻辑顺序：</p>
+<p>● 演绎顺序：大前提、小前提、结论</p>
+<p>● 时间（步骤）顺序：第一、第二、第三</p>
+<p>● 结构（空间）顺序：波士顿、纽约、华盛顿</p>
+<p>● 程度（重要性）顺序：最重要、次重要，等等</p>
+</blockquote>
+<hr>
+<p>◆ 横向关系</p>
+<p>想到《思考，快与慢》中一个类似的例子（一个不合理的演绎）。所有的玫瑰花都是花，有些花会很快凋谢，因此有些玫瑰花会很快凋谢。看似简单的演绎关系并非简单的承上启下，需要有很强的逻辑依赖性，很多时候我们可能都懒得去想明白具体的依赖，导致很多我们自认为清晰的金字塔并不牢靠。</p>
+<blockquote>
+<p>● 所有的人都会死。</p>
+<p>● 苏格拉底是一个人。</p>
+<p>● 因此苏格拉底会死。</p>
+</blockquote>
+<hr>
+<p>◆ 自下而上法</p>
+<p>个人感觉这一步是最难，这是从0到1的过程，后面梳理要点的逻辑关系更像从1到n，很多时候不能构建好的金字塔就在于想不到很多关键的要点，然后就会写一堆自己也不是很清楚的但希望受众清楚的逻辑。如果要点能罗列出来，即使不串逻辑，受众也能接受一半。</p>
+<blockquote>
+<p>列出所有要点</p>
+</blockquote>
+<hr>
+<p>◆ 序言的讲故事结构</p>
+<p>这里存在的最大问题是逻辑混乱，平时写东西的时候也会经常犯这样的错误，觉得把所有的要点列出来，这样显得全面而专业，实则这样的写法可能都没有把读者带入自己的故事中，更别说让别人记住自己的观点。</p>
+<blockquote>
+<p>● 背景</p>
+<p>● 项目组的方法原则</p>
+<p>● 项目工作内容</p>
+<p>● 如何组织计划</p>
+<p>● 具体收益和效果</p>
+<p>● 成功的前提条件</p>
+</blockquote>
+<hr>
+<p>这句话好有意思，写多少不重要，重要的是目的，站在同一位置上。向别人表达自己的想法，目的不就是让别人接纳自己，和自己站在同一位置上思考吗？所以人腿应该多长，只要能站在地面上足矣。</p>
+<blockquote>
+<p>序言的长度应当是多少？人腿的长度又应当是多少？（答案是足以站在地面上。）序言的长度应当确保在你引导读者按照你的思路思考之前，读者和你“站在同一位置上”。</p>
+</blockquote>
+<hr>
+<p>◆ 第5章 演绎推理与归纳推理</p>
+<p>演绎是串联，下一层必须依赖于上一层，一旦某一层断掉，结论将不成立；归纳是并联，某一层断掉不会直接影响最终结论。所以话说回来，如果在特别严谨的论证上最好用演绎，所以在信息特别不完备的条件下最好用归纳。</p>
+<blockquote>
+<p>在金字塔结构中，位于演绎论证过程上一层次的思想是对演绎过程的概括，重点是在演绎推理过程的最后一步，即由逻辑词“因此”引出的结论。归纳推理是将一组具有共同点的事实、思想或观点归类分组，并概括其共同性（或论点）。在演绎过程中，每个思想均由前一个思想导出；而在归纳过程中则不存在这种关系。</p>
+</blockquote>
+<hr>
+<p>◆ 演绎推理</p>
+<p>终于为自己看不懂很多理工科类学术论文找到了一丝理由，因为它全部篇幅可能都是一个逻辑演绎的过程，而且疑问最后都不一定完全解答，哈哈，当然最主要的还是自己太菜了～</p>
+<blockquote>
+<p>如果读者必须读完十几页，才能找到演绎推理的第一步和第二步之间的关系，又必须再读十几页才能找到第二步和第三步之间的关系，那么读者就无法快速理解这次演绎推理。</p>
+</blockquote>
+<hr>
+<p>◆ 时间顺序</p>
+<p>什么样的问题是好问题，这里给出了一个观点，那些被作者遗漏的，但是逻辑关系中需要的问题才是好问题。有些只是为了满足自己的好奇或是为了彰显自己懂得多的问题可能在别人看来都是笑话。</p>
+<blockquote>
+<p>在检查作者思路时，如果逆向追溯到作者思路的源头，你就应该问一句：“人们应用该技术的方法是否有问题？”</p>
+</blockquote>
+<hr>
+<p>◆ 结构顺序</p>
+<p>脑图，思维导图，流程图等都是为了梳理自己的结构顺序（时间顺序），这种方法非常有效。因为当真正动笔之后，由于思维惯性，文章的递进与延展无法收放自如，很可能导致最后的结果一塌糊涂。</p>
+<blockquote>
+<p>结构顺序：</p>
+</blockquote>
+<p>结构顺序就是当你使用示意图、地图、图画或照片想象某事务时的顺序，如组织结构图、关键成功要素示意图等。</p>
+<hr>
+<p>◆ 总结句要说明行动产生的结果/目标</p>
+<p>有时候为了让思路清晰，不管是并列式还是递进式，反正就是往结构图中怼，经常会出现感觉这种好像不对，换一种吧好像也不对，看似整个结构出来了，具体内容就是出不来。原来是有的压根就不应该往结构图中放，就像利益，目标，业务，不管是并列还是递进，如果不基于业务，对理清思路没有帮助。</p>
+<blockquote>
+<p>这一顺序确实没错，但是其结构图应该如图7-7所示：</p>
+<p>图7-7 更清晰的结构图</p>
+<p>你可以看到，我们现在将“利益”、“目标”和“任务”分别放在金字塔结构纵向的3个层次上，而不是放在同一个层次上，因为只有完成了“任务”才能实现“目标”，实现了“目标”才能获得“利益”。它们之间应该是因果关系。但是，这样划分对理顺思路没有什么作用。也许我们可以说，标明不同的抽象层次可以使我们了解各个层次上的行动步骤的类别。即，当我们看到这个结构图时，就能知道某个具体行动是属于“任务”、“目标”，还是“利益”。</p>
+</blockquote>
+<hr>
+<p>作者这里说到明确的语言表达，此外还有一点也很重要，那就是共识。信息传递是一个加解密的过程，将自己的想法加密为语言，文字，图像等传递到对方进行解密，明确的表达能让加解密方式尽可能简单，但信息是否能成功传递还要看双方理解的密钥是否相同。</p>
+<blockquote>
+<p>使用明确的语言表达最终结果的必要性，无论怎样强调也不过分。除非你使用的语言达到了这一要求，否则你根本无法客观判断你列出的行动、步骤，是否包括了所有应当包括的步骤。</p>
+</blockquote>
+<hr>
+<p>坚持以1，2，3罗列要点，以为这样可以让对方更容易理解自己，实则这才做完第一步，更难的是对要点进行层次抽象和结果概括，只罗列要点给对方留下太多的想象压力了。</p>
+<blockquote>
+<p>先用明确的词汇、语句表述各行动、步骤、流程等，然后区分不同的抽象层次，再直接从各行动、步骤、流程等总结概括出行动的结果。</p>
+</blockquote>
+<hr>
+<p>◆ 找出各结论之间的共性</p>
+<p>这段好厉害，有种从n到1，从1到0，从0到1的感觉。从很多信息中提炼类（n−&gt;1），从类中找到逻辑（1−&gt;0），从逻辑中进行创新（0−&gt;1）。</p>
+<blockquote>
+<p>要记住：如果你无法在一组被列为“问题”、“原因”或“结论”的思想中找出明确的逻辑关系，就像上面这个例子一样，那么这一组思想中必定存在问题，你也必须重新进行思考。</p>
+</blockquote>
+<hr>
+<p>上学时第一次接触SWOT分析法就对这类分析的效果有所怀疑，罗列出来并不能得到解决问题的方法，要点的多少也并不能直接说明因素的强弱，最后很有可能就是一个缺乏思想的结论。不过作者这里似乎也没有给出进一步的思考方式，可能是作者给出了但我还没领悟到。</p>
+<blockquote>
+<p>因此什么？这次推理无法得出结论。因此就算了？因此花大本钱也要进？还是因此要请我们制定一个谨慎的战略？这个例子再次说明，人们在难以得出明确结论的时候，很容易写一句“缺乏思想”的句子应付了事（如本例），而不是努力完成自己的思路。</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>● 这些思想都具有某种共性，而且是以这种方式相互关联的仅有的一些思想。</p>
+<p>- 在这种情况下，该组的概括性思想，应当是该组思想的共性所隐含的意义。</p>
+<p>● 这些思想都是为实现某一结果而必须同时采取的行动。</p>
+<p>- 在这种情况下，该组的概括性思想，应当表明采取以上行动后产生的直接结果。</p>
+</blockquote>
+<hr>
+<p>◆ 发掘读者的疑问</p>
+<p>这就像前文说过的，序言的目的是为了让读者和自己站在同一位置上，如果某些疑问读者已经有了一定了解，甚至已经是社会共识的条件下，就不要一味的追求精细从零开始了。</p>
+<blockquote>
+<p>一些作者犯的严重错误，就是在写文章时，不能确定读者是否已经采取了措施。其实，如果知道读者采取措施的时间，以及该措施是如何影响文章要回答的疑问的，将大大简化序言的写作以及以后的推理过程。</p>
+</blockquote>
+<hr>
+<p>当向领导汇报一个问题的解决方案时，我们经常会拟定多个方案ABC让领导选择，但由于信息不对称，上下级之间存在较大博弈空间。比较好的方式可能是给出ABC方案的同时给出方案的归纳/演绎核心，不一定要让领导重新走一遍出方案的过程，但需要让领导的洞察力派上用场。</p>
+<blockquote>
+<p>确定了好几个解决方案，但不知道选哪一个。</p>
+</blockquote>
+<hr>
+<p>◆ 开始写序言</p>
+<p>一个有意义的备选方案应该需要有出方案者定义的对比权重或条件概率，一个明知道会被否定的方案除了会耗费大家时间外没有太大意义，甚至不能作为一个好的A/B测试样本。</p>
+<blockquote>
+<p>备选方案一般归在冲突项下。不要一一列出所有的备选方案，除非读者事先已经知道，否则读者会误把它们当做选择某种解决方案的原因。尤其要避免把备选方案罗列出来，然后否定。</p>
+</blockquote>
+<hr>
+<p>◆ 设计诊断框架</p>
+<p>如果能把所有的要素都列出来，那么问题分析就不会那么难了，实际情况中很多要素是无法穷举的，有时做了很多“有意思”的分析，然而并没有什么用，作者这里提出先做框架的方法很有效，这样能专注于能解决问题的路径，降低问题复杂度。</p>
+<blockquote>
+<p>诊断问题的第二种方法是寻找具有因果关系的要素、行为或任务，得出最终诊断结果。</p>
+</blockquote>
+<hr>
+<p>◆ 突出显示文章的框架结构</p>
+<p>看实际交通场景，红灯停，绿灯行，白色斑马线，黄色实线，黄色虚线，白色实线，白色虚线……，这些都是为了培养用户的共识，降低迁徙的学习成本。报告也是一样，如果刚培养好受众对“问题”的排版理解，接下来相同的排版变成了“结论”，可能就有点蒙圈了。</p>
+<blockquote>
+<p>每一组思想都是同一类的思想，为了强调这种一致性，一组中的所有标题应该采用同样的句子顺序，即对仗。所以，如果一章中，第一节的标题中第一个词是动词，该组其他各节标题的第一个词也应该是动词；如果第一小节的标题中第一个词是名词，其他各小节标题的第一个词也应该是名词，</p>
+</blockquote>
+<hr>
+<p>◆ 设计图表PPT幻灯片</p>
+<blockquote>
+<p>第三篇探讨的所有方法，包括界定问题、诊断框架和逻辑树，都有双重功能。一方面，使解决问题的系统性工作变得更加容易，使你能专注于客户的真正问题，找出产生问题的所有原因以及相对应的解决办法。另一方面，大大减少了在最终报告里组织和交流思想的工作量。它们采用的逻辑结构是构成结论和建议的基础，可以轻而易举地转换成金字塔的形式。</p>
+</blockquote>
+<hr>
+<p>◆ 把图像复制成文字</p>
+<p>就像思考快与慢中的观点，我们的思维其实一直都很“懒”。从儿时开始我们就喜欢听故事，因为故事中逻辑是连贯的，不需要过多的思考就能被自然带入。要让别人认同自己的想法，就要让别人像听故事一样被自然带入，当对方和自己同步思考，就已经成功了一半。</p>
+<blockquote>
+<p>做到条理清晰的有效方法就是，强迫自己想象各种思想观点之间的内在关系。头脑里有了清晰的图像后，就能立刻把它转换成清楚的句子，读者也能马上理解和吸收，并在记忆中以图像的形式储存知识。</p>
+</blockquote>
+<hr>
+<p>◆ 在无结构情况下解决问题的方法</p>
+<p>细思极恐，如果没有力，速度，加速度，功这些概念，我们的思维世界会是什么样。想象回到那个时代，我们也仅仅知道力产生速度，当看到发射出去的炮弹，是不是会相信有上帝之手在推动。幻想一些东西从我们的认知地图中抽离，真的挺可怕。</p>
+<blockquote>
+<p>通过伽利略和炮弹的故事，我们可以更清楚了解这种方法：</p>
+</blockquote>
+<hr>
+<p>◆ 序言结构范例</p>
+<p>福尔摩斯说排除所有的不可能，剩下的那个再不可思议也是事实。单独从逻辑上看这并不是正确的推理，因为剩下的那个可能也不是事实，事实不需要其他反衬。（当然福尔摩斯的前提是所有的不可能）</p>
+<blockquote>
+<p>解决这个问题有3种可能的方法：A、B、C</p>
+<p>方法A不好，因为……</p>
+<p>方法B不好，因为……</p>
+<p>因此，采用方法C。</p>
+<p>事实上，采用C方法的理由并不是因为A和B不好，而是因为C能解决问题，根本没有必要提及A和B。</p>
+</blockquote>
+<p>完 ~</p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Boole</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://booleflow.com/2021/01/02/jin-zi-ta-yuan-li/">http://booleflow.com/2021/01/02/jin-zi-ta-yuan-li/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Boole</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E8%A1%A8%E8%BE%BE/">
+                                    <span class="chip bg-color">表达</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%80%9D%E8%80%83/">
+                                    <span class="chip bg-color">思考</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%8A%AD%E8%8A%AD%E6%8B%89%C2%B7%E6%98%8E%E6%89%98/">
+                                    <span class="chip bg-color">芭芭拉·明托</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'wE9QY7lj3uht6RzKknykllXG-gzGzoHsz',
+        appKey: '2fL1NO5XQwLBGxO5yOfqN6Lv',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/01/02/chuang-xin-de-ben-neng-lei-bi-si-wei-de-li-liang/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="《创新的本能：类比思维的力量》">
+                        
+                        <span class="card-title">《创新的本能：类比思维的力量》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            看这本书最大的收获是进一步确信了类比的重要性，而且从更加底层的视角理解类比。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%88%9B%E6%96%B0/">
+                        <span class="chip bg-color">创新</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%B1%BB%E6%AF%94/">
+                        <span class="chip bg-color">类比</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BA%A6%E7%BF%B0%C2%B7%E6%B3%A2%E6%8B%89%E5%85%8B/">
+                        <span class="chip bg-color">约翰·波拉克</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/01/02/xue-dian-fa-lu-bi-dian-keng-you-qu-you-liao-de-fa-lu-ke-pu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="《学点法律,避点坑：有趣有料的法律科普》">
+                        
+                        <span class="card-title">《学点法律,避点坑：有趣有料的法律科普》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            学点法律是为了保证自己权利的同时，还可以心平气和的与流氓讲话。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B3%95%E5%BE%8B/">
+                        <span class="chip bg-color">法律</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A7%91%E6%99%AE/">
+                        <span class="chip bg-color">科普</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%9A%8B%E5%85%B5/">
+                        <span class="chip bg-color">隋兵</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('3'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020 - 2021</span>
+            <a href="/about" target="_blank">Boole</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">289.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "14";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,1559 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="《赢》, Boole Flow">
+    <meta name="description" content="Emotion defines life, data quantifies the world, and models predict the future.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>《赢》 | Boole Flow</title>
+    <link rel="icon" type="image/png" href="/booleicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Boole Flow" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/boolelogo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Boole Flow</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/boolelogo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Boole Flow</div>
+        <div class="logo-desc">
+            
+            Emotion defines life, data quantifies the world, and models predict the future.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/booleqin/booleqin.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/booleqin/booleqin.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">《赢》</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%95%86%E4%B8%9A/">
+                                <span class="chip bg-color">商业</span>
+                            </a>
+                        
+                            <a href="/tags/%E9%A2%86%E5%AF%BC%E5%8A%9B/">
+                                <span class="chip bg-color">领导力</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%9D%B0%E5%85%8B%C2%B7%E9%9F%A6%E5%B0%94%E5%A5%87/">
+                                <span class="chip bg-color">杰克·韦尔奇</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%8B%8F%E8%8C%9C%C2%B7%E9%9F%A6%E5%B0%94%E5%A5%87/">
+                                <span class="chip bg-color">苏茜·韦尔奇</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                读书笔记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-02
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4.1k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    13 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><strong>《赢》，杰克·韦尔奇 苏茜·韦尔奇著</strong></p>
+<p><strong>注：读书笔记仅做记录，可读性较差。</strong></p>
+<hr>
+<p>◆ 第1章 使命和价值观</p>
+<p>使命和价值观不只是宏观的定义，不是大字标语，是实际工作中的准则，是制定业务目标时的方向，是遇到问题抉择时的优先级。如果一个公司有多条价值观，那最好对它们也排个优先级，如果没有，那对员工遇到问题需要抉择时就没有指导作用了。</p>
+<blockquote>
+<p>商学院也是制造混乱的根源之一，它们经常让学生写文章，阐述使命的含义，然后对价值观进行讨论。这其实是一种极其无用的训练方法，毫无针对性。许多公司也这样来培训他们的高层管理人员，通常的做法是杜撰一条听起来很崇高的标语，并悬挂在公司大厅里。</p>
+</blockquote>
+<hr>
+<p>这很像OKR中的O，设定一个目标，这个目标不是容易实现的，但是分解到具体的路径上，似乎又是可能的。并且在整个公司内部，是透明的，大家都清楚的知道要做什么，遇到问题优先级是什么。不过这时候领导人需要极高的判断力，因为领导的O定偏了，那就整个方向都偏了。</p>
+<blockquote>
+<p>1981—1995年，我们提出的目标是成为“世界上最有竞争力的企业”，让公司的每个业务领域都能在市场上占据第一名或第二名的位置，任何不能达到该要求的业务都必须整改、出售或关闭。</p>
+</blockquote>
+<hr>
+<p>大公司需要建立一个自下而上通道，就像一栋楼的电梯，任何员工不必真的到达任何一层去影响公司结构，但是任何领导和员工都会坐电梯，在电梯里的言论是自由的，员工在这里亲耳听到公司的决策，领导在这里接受一线的声音。</p>
+<blockquote>
+<p>但在规模较大的公司里，听取多方意见就要困难得多。</p>
+</blockquote>
+<hr>
+<p>国内一家大型互联网公司内部结构也有一点这种感觉，赚钱的业务与花钱的业务一定要自上而下的统一在一起，而且CEO不能一边倒。</p>
+<blockquote>
+<p>在90年代的绝大部分时间里，安达信不过是一家自己同自己较劲的公司。咨询部门一直在补贴审计部门，当然他们并不乐意这样做。同样，你可以确信审计部门对于咨询部门那种虚张声势的作风也不感冒。面对如此矛盾的状况，大家该如何回答企业的根本问题呢？“我们的使命究竟是什么？”“什么样的价值观才是最重要的？”“我们应当采取什么样的行动纲领？”员工岗位不同，他们的答案也迥然相异。</p>
+</blockquote>
+<hr>
+<p>◆ 第2章 坦诚</p>
+<p>想到机器学习中的聚类算法，让类内的相关性很强，让类间的相关性很弱。一个优秀的公司文化是让公司内的员工信奉同一个文化价值观，奔着相同的目标，尽可能达到很好的相关性，体会公司归属感带来的优越性。</p>
+<blockquote>
+<p>请先忘记外界的竞争吧，因为你最大的敌人就是企业内部人与人之间不良的交往方式。</p>
+</blockquote>
+<hr>
+<p>坦诚直接对公司的发展来说是好事，因为它降低沟通成本，提升效率，让很多业务变得透明。可是对于个人来说可能并非全是好事，作者是美国人，在美国人看来，直截了当可能比较习以为常。但在国内，沟通是一门艺术，千万不要小觑说话的力量。</p>
+<blockquote>
+<p>我的老板们经常告诫我不要过分直率。现在，我在GE的生涯结束了，但我要告诉你，是坦诚精神帮助GE获得了巨大的成功。</p>
+</blockquote>
+<hr>
+<p>◆ 第3章 考评</p>
+<p>我们都在追求更高的回报，可是不管是高管，经理人还是普通员工，想想自己的薪水，自己真的为企业创造了这么多的价值吗，如果自己是老板，愿意为当下自己做的事开出什么样的价格。</p>
+<blockquote>
+<p>水平中等的孩子则要改进自己的弱项，前进一步，有时候他们做到了，并且提高了整个球队的水平。而那些不能入选的孩子通常会转移到其他的运动、嗜好之中，寻找自己喜爱和擅长的别的项目。不是人人都能够成为伟大的棒球手，也不是每个伟大的棒球手都能够成为著名的医生、计算机程序员、木匠、音乐家或者诗人。我们每一个人都有自己所擅长的方面，而我也坚信，当我们找到自己最适合做的事情时，将是最快乐、最满足的。</p>
+<p>在体育竞技场上是这样，在商业竞技场上也同样如此。</p>
+<p>憎恨以及不憎恨该制度的原因</p>
+<p>我可以在下面几页中详细解释很多人喜爱区别考评制度的各种原因，可是恰恰相反，我将要列出对这个制度提出的最常见的批评。</p>
+</blockquote>
+<hr>
+<p>◆ 第5章 领导力</p>
+<p>员工的成功，是让老板更成功，老板的成功，是让所有员工能成功。</p>
+<blockquote>
+<p>在你成为领导者以前，成功只同自己的成长有关。</p>
+<p>当你成为领导者以后，成功都同别人的成长有关。</p>
+</blockquote>
+<hr>
+<p>为一件已经成功或失败的事寻找理由并不是什么高明的做法，因为在混沌的世界里，为一件已经发生了的事找理由并不难，难的是通过已知预测未知。红袜队的确是赢了，那么回测这种赢的逻辑，下一年赢的会是谁？</p>
+<blockquote>
+<p>当波士顿红袜队终于打破了86年的魔咒，赢得职业棒球联赛的冠军时，美国人随便打开电视或者翻开报纸，都能看到关于为什么2004年是“红袜年”的事后分析。到处都充满了预示，从中场外野手约翰尼·戴蒙的发型到月食的出现！</p>
+</blockquote>
+<hr>
+<p>在一个未知的领域，因为自己缺乏判别的标准，很容易被人忽悠，所以我们需要至少一技之长用以傍身，多技扩展认知地图。</p>
+<blockquote>
+<p>“我们会认真考虑这个问题的。”他们向我保证。我是个无知的外行，爱管闲事罢了，他们只需要稍微抚慰我一番。</p>
+</blockquote>
+<hr>
+<p>◆ 第6章 招聘</p>
+<p>不管什么时候都需要控制住自己的情绪，同时考虑到他人的情绪，找到自己的位子，让别人信赖。</p>
+<blockquote>
+<p>能够控制怒火、承受压力和挫折，或者反过来，在自己功成名就的美妙时刻，能够喜悦但不失谦逊地享受成功的乐趣。成熟的人知道尊重别人的情感，他们充满自信但并不傲慢无礼。</p>
+</blockquote>
+<hr>
+<p>遭遇失败挫折以后一般都会有复盘，目的不是给每个人的失误下定义，是如何避免下次犯同样的错误，如何未雨绸缪。</p>
+<blockquote>
+<p>我特别喜欢那些曾经被完全击倒，却又能站起来，并且在下一个回合里能以更强的姿态出现的人。</p>
+</blockquote>
+<hr>
+<p>不管是公司设定的，还是自己看到的，天花板的存在就已经限制的思维狂奔，定好方向不设限。</p>
+<blockquote>
+<p>一条简单的法则是：在招聘员工时，不要给他们提供职业生涯的“终极职位”，</p>
+</blockquote>
+<hr>
+<p>◆ 第7章 人员管理</p>
+<p>人力资源部致力于为企业建设更加有效的人员管理机制，很好奇人力资源部的绩效考核是如何的？</p>
+<blockquote>
+<p>牧师—父母型的人力资源负责人看得出，员工头脑中隐藏着某种等级观念——那是每家公司都有的无形的政治关系图。</p>
+</blockquote>
+<hr>
+<p>非常优秀并且财务自由的人他们可能不需要金钱的奖励，但奖励他们金钱，是在另一个维度向大众赞扬他们的荣誉，因为在大众眼中，金钱在一定程度上成为了等价物。</p>
+<blockquote>
+<p>奖牌和公众的赞扬的确是不可或缺的。但如果没有金钱，这些东西的影响力会逊色不少。</p>
+</blockquote>
+<hr>
+<p>每个人本身都是独一无二的，但在具体的角色上，没有人是不可替代的，企业愿意为自己支付的成本，就是替代自己所需要的成本。</p>
+<blockquote>
+<p>最理想的做法是，在明星离开的8小时内任命他的替代者。这个迅疾的行动会把信息明确传递给整个公司——没有人是公司离不开的，没有哪个个人能够凌驾于公司之上。</p>
+</blockquote>
+<hr>
+<p>◆ 第10章 危机管理</p>
+<p>很多名言都告诉我们不要在相同的地方摔倒两次，不过实际行动中，永远不会遇到相同的两种情况，所以要将已经犯过的错升华提炼为可转移的方法论。</p>
+<blockquote>
+<p>寻求免疫</p>
+</blockquote>
+<hr>
+<p>不要抱着这样的想法，这次失败没关系，反正也是第一次做，下次好好做一个就行。相同的事情再次尝试的成本太高，勿走回头路。</p>
+<blockquote>
+<p>不要依赖痛苦的经验来增强你的免疫力——除非不得已而为之。</p>
+</blockquote>
+<hr>
+<p>◆ 第11章 战略</p>
+<p>谋定后动，把主线捋清楚以后就动，不要在心里把所有的可能全臆想一遍，到时候就无处下手了。</p>
+<blockquote>
+<p>如果你想赢，那么在涉及战略的时候，就要少点沉思，而敏于行动。</p>
+</blockquote>
+<hr>
+<p>不管做什么都是一个选择的过程，不只是一个我们能直接意识到的人生决择，战略选择，早上几点起床，如何与人沟通，如何安排今天的晚饭等都是选择，就连写下这条感想，拟定大意是选择，如何表达是选择，连标点符号都是选择。只是我们在尽可能的让选择合理，结果可控。</p>
+<blockquote>
+<p>战略其实就是对如何开展竞争的问题做出清晰的选择。不管你的生意有多大，资金有多雄厚，你也不可能满足所有人的所有要求。</p>
+</blockquote>
+<hr>
+<p>战略方向至少要是三维的。要有一定的长度，经常变动的方向不足以成为方向；要有一定的深度，在同行业之间形成竞争壁垒；要有一定的宽度，在资源范围内形成生态闭环。</p>
+<blockquote>
+<p>如果大方向对头，又有一定的宽度，则战略并不需要经常改变。</p>
+</blockquote>
+<hr>
+<p>◆ 第13章 有机的成长</p>
+<p>做一个件新的事，要让做事的人知道自己做的事是重要的，因为历史没做过，很容易彷徨，由内而外的动力和外部资源一样重要。</p>
+<blockquote>
+<p>首先，他们没有给新项目足够的投资，特别是对于业务第一线的人员。</p>
+<p>其次，他们对新项目的前景和重要性宣传得太少。事实上，很多人不但没有为新项目的潜力欢呼，反而保持秘而不宣的态度。</p>
+<p>最后，他们限制了新项目的自主权。</p>
+</blockquote>
+<hr>
+<p>每天吃着互联网圈的瓜，给自己设定角色，想象自己遇到那种情况会怎么办，滴滴的客服，百度的公关，ofo的运营，多闪的产品经理，前面的事已经被决定，无法改变，那么从此刻开始，可以怎么做。</p>
+<blockquote>
+<p>通常情况下，你会发现自己没有从总部获得足够的资金，也没有得到最好的人手。你需要竭尽所能去战斗！</p>
+</blockquote>
+<hr>
+<p>◆ 第14章 企业并购</p>
+<p>股市中散户之所以亏损，在很大程度上也是受到这种心理的影响。最平常的就是都会有一个基准的预期，高了会跌下去，所以有点涨幅就卖掉，低了会拉起来，所以即使亏了很多也觉得很快会涨起来。卖和买的时候，明知道自己设置的值差成交价还有一段距离，但就是会很狂热的交易。</p>
+<blockquote>
+<p>我迫不及待地付给了他们3亿美元。</p>
+<p>我究竟在想什么？</p>
+<p>当然，我什么都没想。这就是狂热的力量。</p>
+<p>在名义上，我们拥有这家公司，但是该公司的意志和目标却是完全独立的。</p>
+<p>在接下来的几年中，我们艰难前行，试图与Intersil“合并”。通常，当我们提出建议，让CEO改进其运营体系，例如有关人力资源管理的时候，他会把我们扔在一边。“你们不懂这个行业，让我们自己干吧，你们只需要关心季末的利润就行了。”</p>
+<p>客气点说，这种态度并不让人愉快，对经营也没有帮助。</p>
+</blockquote>
+<p>-–</p>
+<p>并购的主要目的不是为了控制某一家公司，而是获得人才。收购者提供资源，让被收购者在符合收购者发展战略的主线上继续自己的业务深耕。这个大型公司内部孵化单独的攻坚项目类似，并购获得的机会比内部孵化更多，因为在取得成果前不需要付出成本，但也使得并购当时付出得更多。</p>
+<blockquote>
+<p>我们要与“征服者综合征”做斗争，要把并购想象成获得人才宝库的机会。</p>
+</blockquote>
+<hr>
+<p>◆ 第15章 六西格玛</p>
+<p>客户心理有预期，与预期相差越小，用户越满意，如果超出预期的部分能变成新的预期，那就是进化。</p>
+<blockquote>
+<p>六西格玛不是关于平均数的问题，而是关于方差或波动的问题，并且要在你与顾客的界面上进行改进。</p>
+</blockquote>
+<hr>
+<p>◆ 第16章 合适的工作</p>
+<p>国内这种方式并不一定可行，当窗户纸被捅破，后续做事就会有很多细腻的情感成分掺杂其中。</p>
+<blockquote>
+<p>拿着这个条件，我跟GE摊了牌，但最后还是听从公司的劝告留了下来。当然，达成的条件是GE需要把我的薪水涨到与竞争对手的开价同等的水平。</p>
+</blockquote>
+<hr>
+<p>在已有岗位上努力工作，让自己变得有价值，在获得肯定晋升的同时，也是下一个工作的砝码，不要把工作看成是被企业家奴役压榨，这是我们实现自己价值的必然路径。</p>
+<blockquote>
+<p>如果你想寻找更好的工作，那么最快捷的方法就是在原先的岗位上干出出色的业绩。</p>
+</blockquote>
+<hr>
+<p>◆ 第18章 糟糕的老板</p>
+<p>受害者是因为某些事而处于被动地位而无法反击的托词，在精英面前，把自己表现为受害者得不到任何的同情，只会受到很多的轻视。</p>
+<blockquote>
+<p>不管遇到多么糟糕的老板，你都不能让自己表现为一名受害者。</p>
+</blockquote>
+<hr>
+<p>◆ 第19章 工作与生活的平衡</p>
+<p>眼中要有格局，不要贪图眼前的小利，看看今天的作为能为一年后自己带来什么，如果带不来本质的变化，那就把时间用来做更有用的事吧！</p>
+<blockquote>
+<p>他们把休假日全都攒起来，他们递交的单据显示，自己在节假日里有多少个半天或者全天用来加班；他们提醒老板和同事，公司有关于加班的规定；他们是打小算盘的专家，用自己的表现一再证明，他们来这里工作并不是出于兴趣或者热情，而只是在记录工作了多长时间。</p>
+</blockquote>
+<p>完 ～ </p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Boole</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://booleflow.com/2021/01/02/ying/">http://booleflow.com/2021/01/02/ying/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Boole</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%95%86%E4%B8%9A/">
+                                    <span class="chip bg-color">商业</span>
+                                </a>
+                            
+                                <a href="/tags/%E9%A2%86%E5%AF%BC%E5%8A%9B/">
+                                    <span class="chip bg-color">领导力</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%9D%B0%E5%85%8B%C2%B7%E9%9F%A6%E5%B0%94%E5%A5%87/">
+                                    <span class="chip bg-color">杰克·韦尔奇</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%8B%8F%E8%8C%9C%C2%B7%E9%9F%A6%E5%B0%94%E5%A5%87/">
+                                    <span class="chip bg-color">苏茜·韦尔奇</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'wE9QY7lj3uht6RzKknykllXG-gzGzoHsz',
+        appKey: '2fL1NO5XQwLBGxO5yOfqN6Lv',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2021/01/16/jue-ce-shu-yuan-li-jie-xi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="决策树原理解析">
+                        
+                        <span class="card-title">决策树原理解析</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            决策树模型是一种描述对实例进行分类或回归的树形结构，由结点和有向边构成。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-16
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ML-DL/" class="post-category">
+                                    ML&DL
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%86%B3%E7%AD%96%E6%A0%91/">
+                        <span class="chip bg-color">决策树</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%86%B5/">
+                        <span class="chip bg-color">熵</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A/">
+                        <span class="chip bg-color">信息增益</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A%E6%AF%94/">
+                        <span class="chip bg-color">信息增益比</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9F%BA%E5%B0%BC%E7%B3%BB%E6%95%B0/">
+                        <span class="chip bg-color">基尼系数</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/01/02/zhe-jiu-shi-okr-rang-gu-ge-ya-ma-xun-shi-xian-bao-zha-xing-zeng-chang-de-gong-zuo-fa/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="《这就是OKR：让谷歌、亚马逊实现爆炸性增长的工作法》">
+                        
+                        <span class="card-title">《这就是OKR：让谷歌、亚马逊实现爆炸性增长的工作法》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            OKR的透明能解决大企业多节点导致的信息损失问题，但透明也强迫战略执行一盘棋，是否能让业务之间像齿轮一样紧密咬合。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AE%A1%E7%90%86/">
+                        <span class="chip bg-color">管理</span>
+                    </a>
+                    
+                    <a href="/tags/OKR/">
+                        <span class="chip bg-color">OKR</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BA%A6%E7%BF%B0%C2%B7%E6%9D%9C%E5%B0%94/">
+                        <span class="chip bg-color">约翰·杜尔</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('3'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020 - 2021</span>
+            <a href="/about" target="_blank">Boole</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">289.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "14";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/booleqin" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:burgess0001@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/burgess-64-18" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/burgess-64-18" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
