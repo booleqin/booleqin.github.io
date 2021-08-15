@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2021-07-31T14:50:15.627Z</updated>
+  <updated>2021-08-15T07:56:37.688Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《顾客为什么购买》</title>
+    <link href="http://booleflow.com/2021/08/15/gu-ke-wei-shi-me-gou-mai/"/>
+    <id>http://booleflow.com/2021/08/15/gu-ke-wei-shi-me-gou-mai/</id>
+    <published>2021-08-15T07:50:33.000Z</published>
+    <updated>2021-08-15T07:56:37.688Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《顾客为什么购买》，帕科·昂德希尔著&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;读这本书的时候，内心一直有一个念头环绕，那就是与时俱进的重要性。这本书的第一章大概写于1997年，已经是</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="商业" scheme="http://booleflow.com/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="零售" scheme="http://booleflow.com/tags/%E9%9B%B6%E5%94%AE/"/>
+    
+    <category term="帕科·昂德希尔" scheme="http://booleflow.com/tags/%E5%B8%95%E7%A7%91%C2%B7%E6%98%82%E5%BE%B7%E5%B8%8C%E5%B0%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Production Costs</title>
@@ -591,37 +622,6 @@
     <category term="相似度" scheme="http://booleflow.com/tags/%E7%9B%B8%E4%BC%BC%E5%BA%A6/"/>
     
     <category term="pytorch" scheme="http://booleflow.com/tags/pytorch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《逆商：我们该如何应对坏事件》</title>
-    <link href="http://booleflow.com/2021/02/28/ni-shang-wo-men-gai-ru-he-ying-dui-pi-shi-jian/"/>
-    <id>http://booleflow.com/2021/02/28/ni-shang-wo-men-gai-ru-he-ying-dui-pi-shi-jian/</id>
-    <published>2021-02-28T15:26:06.000Z</published>
-    <updated>2021-07-31T08:24:54.373Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《逆商：我们该如何应对坏事件》，保罗·史托兹著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们似乎对讨论智商和情商习以为常，可当讨论起逆商，感觉却有点神秘。提出一个解决问题的方案就可以</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="攀登者" scheme="http://booleflow.com/tags/%E6%94%80%E7%99%BB%E8%80%85/"/>
-    
-    <category term="逆商" scheme="http://booleflow.com/tags/%E9%80%86%E5%95%86/"/>
-    
-    <category term="保罗·史托兹" scheme="http://booleflow.com/tags/%E4%BF%9D%E7%BD%97%C2%B7%E5%8F%B2%E6%89%98%E5%85%B9/"/>
     
   </entry>
   
