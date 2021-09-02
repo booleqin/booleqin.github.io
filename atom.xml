@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2021-08-15T07:56:37.688Z</updated>
+  <updated>2021-09-02T11:46:41.673Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HiveSQL性能调优</title>
+    <link href="http://booleflow.com/2021/09/04/hivesql-xing-neng-diao-you/"/>
+    <id>http://booleflow.com/2021/09/04/hivesql-xing-neng-diao-you/</id>
+    <published>2021-09-04T02:26:23.000Z</published>
+    <updated>2021-09-02T11:46:41.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Hive-SQL和Spark-SQL&quot;&gt;&lt;a href=&quot;#Hive-SQL和Spark-SQL&quot; class=&quot;headerlink&quot; title=&quot;Hive SQL和Spark SQL&quot;&gt;&lt;/a&gt;Hive SQL和Spark</summary>
+        
+      
+    
+    
+    
+    <category term="DS&amp;DM" scheme="http://booleflow.com/categories/DS-DM/"/>
+    
+    
+    <category term="大数据" scheme="http://booleflow.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    <category term="数据库" scheme="http://booleflow.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="性能优化" scheme="http://booleflow.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>《顾客为什么购买》</title>
@@ -572,7 +601,7 @@
     <link href="http://booleflow.com/2021/03/13/neo4j-shi-yong-xiang-jie/"/>
     <id>http://booleflow.com/2021/03/13/neo4j-shi-yong-xiang-jie/</id>
     <published>2021-03-13T03:11:19.000Z</published>
-    <updated>2021-07-31T08:24:54.325Z</updated>
+    <updated>2021-09-02T06:40:11.940Z</updated>
     
     
       
@@ -590,38 +619,9 @@
     
     <category term="neo4j" scheme="http://booleflow.com/tags/neo4j/"/>
     
-    <category term="非关系型数据库" scheme="http://booleflow.com/tags/%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="Cypher" scheme="http://booleflow.com/tags/Cypher/"/>
     
-  </entry>
-  
-  <entry>
-    <title>SiameseNetwork孪生神经网络原理及实现</title>
-    <link href="http://booleflow.com/2021/03/06/siamesenetwork-luan-sheng-shen-jing-wang-luo-yuan-li-ji-shi-xian/"/>
-    <id>http://booleflow.com/2021/03/06/siamesenetwork-luan-sheng-shen-jing-wang-luo-yuan-li-ji-shi-xian/</id>
-    <published>2021-03-06T09:39:47.000Z</published>
-    <updated>2021-07-31T08:24:54.318Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Siamese-network&quot;&gt;&lt;a href=&quot;#Siamese-network&quot; class=&quot;headerlink&quot; title=&quot;Siamese network&quot;&gt;&lt;/a&gt;Siamese</summary>
-        
-      
-    
-    
-    
-    <category term="ML&amp;DL" scheme="http://booleflow.com/categories/ML-DL/"/>
-    
-    
-    <category term="SiameseNetwork" scheme="http://booleflow.com/tags/SiameseNetwork/"/>
-    
-    <category term="相似度" scheme="http://booleflow.com/tags/%E7%9B%B8%E4%BC%BC%E5%BA%A6/"/>
-    
-    <category term="pytorch" scheme="http://booleflow.com/tags/pytorch/"/>
+    <category term="数据库" scheme="http://booleflow.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
