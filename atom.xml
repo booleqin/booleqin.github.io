@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2021-09-24T09:42:29.933Z</updated>
+  <updated>2021-09-24T10:26:56.646Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>养老产业研究（调研）</title>
+    <link href="http://booleflow.com/2021/09/22/yang-lao-chan-ye-yan-jiu-diao-yan/"/>
+    <id>http://booleflow.com/2021/09/22/yang-lao-chan-ye-yan-jiu-diao-yan/</id>
+    <published>2021-09-22T14:14:54.000Z</published>
+    <updated>2021-09-24T10:26:56.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;注：部分内容直接来源于参考文献，具体参考文献已经附在文末，如有侵权，请邮件联系我&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;养老产业&quot;&gt;&lt;a href=&quot;#养老产业&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="金融学" scheme="http://booleflow.com/tags/%E9%87%91%E8%9E%8D%E5%AD%A6/"/>
+    
+    <category term="产业研究" scheme="http://booleflow.com/tags/%E4%BA%A7%E4%B8%9A%E7%A0%94%E7%A9%B6/"/>
+    
+    <category term="养老" scheme="http://booleflow.com/tags/%E5%85%BB%E8%80%81/"/>
+    
+  </entry>
   
   <entry>
     <title>《理性的非理性金融》</title>
@@ -583,38 +613,6 @@
     <category term="带宽" scheme="http://booleflow.com/tags/%E5%B8%A6%E5%AE%BD/"/>
     
     <category term="塞德希尔·穆来纳森" scheme="http://booleflow.com/tags/%E5%A1%9E%E5%BE%B7%E5%B8%8C%E5%B0%94%C2%B7%E7%A9%86%E6%9D%A5%E7%BA%B3%E6%A3%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>量化投资概念与技术</title>
-    <link href="http://booleflow.com/2021/03/27/liang-hua-tou-zi-gai-nian-yu-ji-zhu/"/>
-    <id>http://booleflow.com/2021/03/27/liang-hua-tou-zi-gai-nian-yu-ji-zhu/</id>
-    <published>2021-03-27T08:45:09.000Z</published>
-    <updated>2021-07-31T08:24:54.525Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;策略众多，难以面面俱到，只做引子。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E5%B9%BB%E7%81%AF%E7%89%8701.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;%E5%B9%BB%E7%81%AF%E7%89%8702.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="经济学" scheme="http://booleflow.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-    
-    <category term="量化投资" scheme="http://booleflow.com/tags/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/"/>
-    
-    <category term="金融学" scheme="http://booleflow.com/tags/%E9%87%91%E8%9E%8D%E5%AD%A6/"/>
-    
-    <category term="数学" scheme="http://booleflow.com/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
