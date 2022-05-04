@@ -6,7 +6,7 @@
   <link href="http://booleflow.com/atom.xml" rel="self"/>
   
   <link href="http://booleflow.com/"/>
-  <updated>2022-02-07T06:26:51.697Z</updated>
+  <updated>2022-05-04T12:50:17.947Z</updated>
   <id>http://booleflow.com/</id>
   
   <author>
@@ -15,6 +15,190 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spark数据倾斜解决方案</title>
+    <link href="http://booleflow.com/2022/05/04/spark-shu-ju-qing-xie-jie-jue-fang-an/"/>
+    <id>http://booleflow.com/2022/05/04/spark-shu-ju-qing-xie-jie-jue-fang-an/</id>
+    <published>2022-05-04T08:46:41.000Z</published>
+    <updated>2022-05-04T12:50:17.947Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于数据倾斜&quot;&gt;&lt;a href=&quot;#关于数据倾斜&quot; class=&quot;headerlink&quot; title=&quot;关于数据倾斜&quot;&gt;&lt;/a&gt;关于数据倾斜&lt;/h2&gt;&lt;h3 id=&quot;什么是数据倾斜&quot;&gt;&lt;a href=&quot;#什么是数据倾斜&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="DS&amp;DM" scheme="http://booleflow.com/categories/DS-DM/"/>
+    
+    
+    <category term="算法" scheme="http://booleflow.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="大数据" scheme="http://booleflow.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    <category term="spark" scheme="http://booleflow.com/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>智能的本质</title>
+    <link href="http://booleflow.com/2022/05/03/zhi-neng-de-ben-zhi/"/>
+    <id>http://booleflow.com/2022/05/03/zhi-neng-de-ben-zhi/</id>
+    <published>2022-05-03T10:42:53.000Z</published>
+    <updated>2022-05-03T11:59:35.208Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;《智能的本质》一书还有一个副标题，人工智能与机器人领域的64个大问题。作者重点以人类智能的历史发展为锚，当下人工智能实际发展为浆，从64个角度论述今天人工智能和机器人领域的不足，同时，也畅想了人工智能的未来。作者虽然大量的篇幅对人工智能的发展都持有怀疑态度，但同时也在多次重</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="人工智能" scheme="http://booleflow.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="机器人" scheme="http://booleflow.com/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    
+    <category term="皮埃罗·斯加鲁菲" scheme="http://booleflow.com/tags/%E7%9A%AE%E5%9F%83%E7%BD%97%C2%B7%E6%96%AF%E5%8A%A0%E9%B2%81%E8%8F%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元宇宙初探</title>
+    <link href="http://booleflow.com/2022/03/20/yuan-yu-zhou-chu-tan/"/>
+    <id>http://booleflow.com/2022/03/20/yuan-yu-zhou-chu-tan/</id>
+    <published>2022-03-20T08:47:01.000Z</published>
+    <updated>2022-04-22T09:57:25.370Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;2021年元宇宙元年&quot;&gt;&lt;a href=&quot;#2021年元宇宙元年&quot; class=&quot;headerlink&quot; title=&quot;2021年元宇宙元年&quot;&gt;&lt;/a&gt;2021年元宇宙元年&lt;/h3&gt;&lt;p&gt;元宇宙的概念最初来源于1992年Neal</summary>
+        
+      
+    
+    
+    
+    <category term="计算机技术" scheme="http://booleflow.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="人工智能" scheme="http://booleflow.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="区块链" scheme="http://booleflow.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    <category term="元宇宙" scheme="http://booleflow.com/tags/%E5%85%83%E5%AE%87%E5%AE%99/"/>
+    
+    <category term="数字孪生" scheme="http://booleflow.com/tags/%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《平台革命-改变世界的商业模式》</title>
+    <link href="http://booleflow.com/2022/03/13/ping-tai-ge-ming-gai-bian-shi-jie-de-shang-ye-mo-shi/"/>
+    <id>http://booleflow.com/2022/03/13/ping-tai-ge-ming-gai-bian-shi-jie-de-shang-ye-mo-shi/</id>
+    <published>2022-03-13T13:56:09.000Z</published>
+    <updated>2022-04-22T10:54:33.445Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天，全球企业市值TOP10排名中，苹果、Alphabet、微软、亚马逊、腾讯赫然在列。这些企业和传统石油、金融、零售公司不同，它们的业务很多都围绕着平台业务展开。随着移动互联网的不断深入，平台这个词已经有点泛滥成灾了。但是平台是什么，它们如何工作，它们对商业和经济意味着什</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="互联网" scheme="http://booleflow.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+    <category term="商业" scheme="http://booleflow.com/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="平台" scheme="http://booleflow.com/tags/%E5%B9%B3%E5%8F%B0/"/>
+    
+    <category term="杰奥夫雷G·帕克" scheme="http://booleflow.com/tags/%E6%9D%B0%E5%A5%A5%E5%A4%AB%E9%9B%B7G%C2%B7%E5%B8%95%E5%85%8B/"/>
+    
+    <category term="马歇尔W·范·埃尔斯泰恩" scheme="http://booleflow.com/tags/%E9%A9%AC%E6%AD%87%E5%B0%94W%C2%B7%E8%8C%83%C2%B7%E5%9F%83%E5%B0%94%E6%96%AF%E6%B3%B0%E6%81%A9/"/>
+    
+    <category term="桑基特·保罗·邱达利" scheme="http://booleflow.com/tags/%E6%A1%91%E5%9F%BA%E7%89%B9%C2%B7%E4%BF%9D%E7%BD%97%C2%B7%E9%82%B1%E8%BE%BE%E5%88%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WEB应用常见安全漏洞</title>
+    <link href="http://booleflow.com/2022/02/20/web-ying-yong-chang-jian-an-quan-lou-dong/"/>
+    <id>http://booleflow.com/2022/02/20/web-ying-yong-chang-jian-an-quan-lou-dong/</id>
+    <published>2022-02-20T09:25:33.000Z</published>
+    <updated>2022-04-22T09:56:01.192Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本人主要研究方向不是网络安全，只是常对安全场景进行数据挖掘和算法识别，故仅侧重原理部分，具体poc和解决方案仅供参考。&lt;/p&gt;
+&lt;p&gt;本文当前覆盖10种常见的web应用安全漏洞。&lt;/p&gt;
+&lt;h2 id=&quot;SQL注入&quot;&gt;&lt;a href=&quot;#SQL注入&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机技术" scheme="http://booleflow.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="WEB安全" scheme="http://booleflow.com/tags/WEB%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="安全漏洞" scheme="http://booleflow.com/tags/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《简单的力量》</title>
+    <link href="http://booleflow.com/2022/02/19/jian-dan-de-li-liang/"/>
+    <id>http://booleflow.com/2022/02/19/jian-dan-de-li-liang/</id>
+    <published>2022-02-19T05:13:17.000Z</published>
+    <updated>2022-04-22T09:57:36.598Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;定位虽好，但也不要贪杯&quot;&gt;&lt;a href=&quot;#定位虽好，但也不要贪杯&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="管理学" scheme="http://booleflow.com/tags/%E7%AE%A1%E7%90%86%E5%AD%A6/"/>
+    
+    <category term="定位" scheme="http://booleflow.com/tags/%E5%AE%9A%E4%BD%8D/"/>
+    
+    <category term="杰克·特劳特" scheme="http://booleflow.com/tags/%E6%9D%B0%E5%85%8B%C2%B7%E7%89%B9%E5%8A%B3%E7%89%B9/"/>
+    
+    <category term="史蒂夫·里夫金" scheme="http://booleflow.com/tags/%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E9%87%8C%E5%A4%AB%E9%87%91/"/>
+    
+  </entry>
   
   <entry>
     <title>《监管科技：面向未来的监管变革》</title>
@@ -60,7 +244,7 @@
     <link href="http://booleflow.com/2022/01/28/lang-chao-zhi-dian/"/>
     <id>http://booleflow.com/2022/01/28/lang-chao-zhi-dian/</id>
     <published>2022-01-28T13:57:55.000Z</published>
-    <updated>2022-02-07T06:26:56.350Z</updated>
+    <updated>2022-04-22T10:01:12.467Z</updated>
     
     
       
@@ -268,27 +452,6 @@
   </entry>
   
   <entry>
-    <title>正则表达式+python</title>
-    <link href="http://booleflow.com/2021/09/03/zheng-ze-biao-da-shi-python/"/>
-    <id>http://booleflow.com/2021/09/03/zheng-ze-biao-da-shi-python/</id>
-    <published>2021-09-03T09:15:21.000Z</published>
-    <updated>2021-09-03T10:18:54.332Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1-今天在做一道匹配邮箱的题目，发现re-findall-匹配的时候如果有括号，只能取到括号里面的内容：&quot;&gt;&lt;a href=&quot;#1-今天在做一道匹配邮箱的题目，发现re-findall-匹配的时候如果有括号，只能取到括号里面的内容：&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>《顾客为什么购买》</title>
     <link href="http://booleflow.com/2021/08/15/gu-ke-wei-shi-me-gou-mai/"/>
     <id>http://booleflow.com/2021/08/15/gu-ke-wei-shi-me-gou-mai/</id>
@@ -465,165 +628,6 @@
     <category term="科技主义" scheme="http://booleflow.com/tags/%E7%A7%91%E6%8A%80%E4%B8%BB%E4%B9%89/"/>
     
     <category term="尤瓦尔·赫拉利" scheme="http://booleflow.com/tags/%E5%B0%A4%E7%93%A6%E5%B0%94%C2%B7%E8%B5%AB%E6%8B%89%E5%88%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《半小时漫画中国史5》</title>
-    <link href="http://booleflow.com/2021/05/05/ban-xiao-shi-man-hua-zhong-guo-shi-5/"/>
-    <id>http://booleflow.com/2021/05/05/ban-xiao-shi-man-hua-zhong-guo-shi-5/</id>
-    <published>2021-05-05T07:20:19.000Z</published>
-    <updated>2021-07-31T08:24:54.355Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史5》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;朱元璋建立了大明王朝，之后经历了16位皇帝，最后被吴三桂放大清过了三海关，大明算是告一段落，大清经历了雍</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="明朝" scheme="http://booleflow.com/tags/%E6%98%8E%E6%9C%9D/"/>
-    
-    <category term="清朝" scheme="http://booleflow.com/tags/%E6%B8%85%E6%9C%9D/"/>
-    
-    <category term="二混子陈磊" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90%E9%99%88%E7%A3%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《半小时漫画中国史4》</title>
-    <link href="http://booleflow.com/2021/05/04/ban-xiao-shi-man-hua-zhong-guo-shi-4/"/>
-    <id>http://booleflow.com/2021/05/04/ban-xiao-shi-man-hua-zhong-guo-shi-4/</id>
-    <published>2021-05-04T09:50:16.000Z</published>
-    <updated>2021-07-31T08:24:54.355Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史4》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;唐朝灭亡后，各地藩镇轮番开始广场舞，出现了五代十国。宋朝在一番征战之后终于杀了出来，可是最后一个皇帝宋徽</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
-    
-    <category term="宋朝" scheme="http://booleflow.com/tags/%E5%AE%8B%E6%9C%9D/"/>
-    
-    <category term="蒙古帝国" scheme="http://booleflow.com/tags/%E8%92%99%E5%8F%A4%E5%B8%9D%E5%9B%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《半小时漫画中国史3》</title>
-    <link href="http://booleflow.com/2021/05/03/ban-xiao-shi-man-hua-zhong-guo-shi-3/"/>
-    <id>http://booleflow.com/2021/05/03/ban-xiao-shi-man-hua-zhong-guo-shi-3/</id>
-    <published>2021-05-03T03:19:32.000Z</published>
-    <updated>2021-07-31T08:24:54.355Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史3》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从盛产败家子的南北朝，到只有两个皇帝的隋朝，后面大量篇幅讲了唐朝，唐太宗、武则天、唐玄宗算是唐朝的皇帝代</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
-    
-    <category term="南北朝" scheme="http://booleflow.com/tags/%E5%8D%97%E5%8C%97%E6%9C%9D/"/>
-    
-    <category term="隋朝" scheme="http://booleflow.com/tags/%E9%9A%8B%E6%9C%9D/"/>
-    
-    <category term="唐朝" scheme="http://booleflow.com/tags/%E5%94%90%E6%9C%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《半小时漫画中国史2》</title>
-    <link href="http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/"/>
-    <id>http://booleflow.com/2021/05/02/ban-xiao-shi-man-hua-zhong-guo-shi-2/</id>
-    <published>2021-05-02T10:44:58.000Z</published>
-    <updated>2021-07-31T08:24:54.354Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史2》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;串故事逻辑非常好，从西汉到王莽篡权再到东汉，从东汉末年的董卓袁绍和曹操，再到三国的官渡之战、赤壁之战和夷</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
-    
-    <category term="东西汉" scheme="http://booleflow.com/tags/%E4%B8%9C%E8%A5%BF%E6%B1%89/"/>
-    
-    <category term="三国鼎立" scheme="http://booleflow.com/tags/%E4%B8%89%E5%9B%BD%E9%BC%8E%E7%AB%8B/"/>
-    
-    <category term="魏晋南北朝" scheme="http://booleflow.com/tags/%E9%AD%8F%E6%99%8B%E5%8D%97%E5%8C%97%E6%9C%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《半小时漫画中国史1》</title>
-    <link href="http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/"/>
-    <id>http://booleflow.com/2021/05/01/ban-xiao-shi-man-hua-zhong-guo-shi-1/</id>
-    <published>2021-05-01T10:53:16.000Z</published>
-    <updated>2021-07-31T08:24:54.354Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;《半小时漫画中国史1》，二混子陈磊著&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：读书笔记仅做记录，可读性较差。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用漫画的形式讲述历史故事，可能没办法呈现更多的细节，但是能让读者去理解历史脉络，建立自己的历史观。个人感</summary>
-        
-      
-    
-    
-    
-    <category term="读书笔记" scheme="http://booleflow.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="春秋五霸" scheme="http://booleflow.com/tags/%E6%98%A5%E7%A7%8B%E4%BA%94%E9%9C%B8/"/>
-    
-    <category term="战国七雄" scheme="http://booleflow.com/tags/%E6%88%98%E5%9B%BD%E4%B8%83%E9%9B%84/"/>
-    
-    <category term="二混子" scheme="http://booleflow.com/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
     
   </entry>
   
